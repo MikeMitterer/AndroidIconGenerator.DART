@@ -1,0 +1,14 @@
+---
+build.dart 
+Unable to open file: /Users/mikemitterer/dart/AndroidIconGenerator/packages/web_ui/component_build.dart'file:///Users/mikemitterer/dart/AndroidIconGenerator/build.dart': Error: line 8 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [74 ms]
+
+---
+build.dart 
+Unable to open file: /Users/mikemitterer/dart/AndroidIconGenerator/packages/web_ui/component_build.dart'file:///Users/mikemitterer/dart/AndroidIconGenerator/build.dart': Error: line 8 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [95 ms]
+
