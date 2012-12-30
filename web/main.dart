@@ -1,5 +1,5 @@
 import 'dart:html';
-import 'lib/dndfiles.dart';
+import 'model/Model.dart';
 
 void main() {
   final DndFiles dndfiles = new DndFiles();

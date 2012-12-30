@@ -28,6 +28,10 @@ output {
   margin-top: 5px;
 }
 
+#read {
+  margin-top: 1em;
+  }
+  
 #drop-zone {
   border: 2px dashed #bbb;
   -webkit-border-radius: 5px;

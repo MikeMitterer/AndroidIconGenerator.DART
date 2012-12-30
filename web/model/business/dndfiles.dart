@@ -4,20 +4,16 @@
 
 // This is a port of "Reading Files in JavaScript Using the File APIs" to Dart.
 // See: http://www.html5rocks.com/en/tutorials/file/dndfiles/
-
-library dndfiles;
-
-import 'dart:html';
-import 'htmlescape.dart';
+part of model;
 
 class DndFiles {
   FormElement _readForm;
   InputElement _fileInput;
   Element _dropZone;
-  OutputElement _output;
+  //OutputElement _output;
 
   DndFiles() {
-    _output = document.query('#list');
+    //_output = document.query('#list');
     _readForm = document.query('#read');
     _fileInput = document.query('#file');
     _fileInput.on.change.add((e) => _onFileInputChange());
@@ -44,15 +40,26 @@ class DndFiles {
     event.preventDefault();
     _dropZone.classes.remove('hover');
     _readForm.reset();
-    _onFilesSelected(event.dataTransfer.files);
+    
+    //_onFilesSelected(event.dataTransfer.files);
+    _addSelectedFilesToModel(event.dataTransfer.files);
   }
 
   void _onFileInputChange() {
-    _onFilesSelected(_fileInput.files);
+    //_onFilesSelected(_fileInput.files);
+    _addSelectedFilesToModel(_fileInput.files);
   }
 
+  void _addSelectedFilesToModel(List<File> files) {
+    convertedfiles.files.clear();
+    for (File file in files) {
+      convertedfiles.files.add(new AndroidFile(file));
+    }
+    watcher.dispatch();
+  }
+  
   void _onFilesSelected(List<File> files) {
-    _output.nodes.clear();
+    //_output.nodes.clear();
     Element list = new Element.tag('ul');
     for (var file in files) {
       Element item = new Element.tag('li');
@@ -98,7 +105,7 @@ class DndFiles {
       item.nodes.add(properties);
       list.nodes.add(item);
     }
-    _output.nodes.add(list);
+    //_output.nodes.add(list);
   }
 
   //-----------------------------------------------------------------------------------------------

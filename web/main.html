@@ -10,11 +10,22 @@
     <h1>AndroidIconGenerator</h1>
     
     <h3>Using Form Input, Drag and Drop, and Reading Files</h3>
+    <div id="drop-zone">
+      Drop files here...
+    </div>
     <form id="read">
       <input type="file" id="file" name="files[]" multiple />
     </form>
-    <div id="drop-zone">Drop files here...</div>
-    <output id="list"></output>
+    <ul id="list">
+      <template iterate='file in convertedfiles.files'>
+        <li>{{file.filename}}
+        <template if='file.isImage'>
+          <img src="{{file.src}}" alt="{{file.filename}}"><br/>
+          Source: {{file.src}}
+         </template>
+        </li>
+      </template>
+    </ul>
 
     <script type="application/dart" src="main.dart"></script>
     <script src="https://dart.googlecode.com/svn/branches/bleeding_edge/dart/client/dart.js"></script>
