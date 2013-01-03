@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>AndroidIconGenerator</title>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/application.css">
   </head>
   <body>
     <h1>AndroidIconGenerator</h1>
@@ -16,12 +16,13 @@
     <form id="read">
       <input type="file" id="file" name="files[]" multiple />
     </form>
-    <ul id="list">
+    <ul id="filelist">
       <template iterate='file in convertedfiles.files'>
-        <li>{{file.filename}}
+        <li><span class="filename">{{file.filename}}</span>
         <template if='file.isImage'>
-          <img src="{{file.src}}" alt="{{file.filename}}"><br/>
-          Source: {{file.src}}
+          <div class="image">
+            <img src="{{file.safeuri}}" alt="{{file.filename}}">
+          </div>
          </template>
         </li>
       </template>

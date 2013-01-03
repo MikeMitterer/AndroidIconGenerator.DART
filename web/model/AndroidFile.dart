@@ -1,30 +1,31 @@
 part of model;
 
 class AndroidFile {
-  File _file;  
-  
+  File _file;
+
   String filename;
   String src;
+  SafeUri safeuri;
+
   //String imgtag;
   String width;
   String height;
 
   bool isImage;
-  
+
   AndroidFile(this._file) : isImage = false {
     filename = htmlEscape(_file.name);
-    
+
     // If the file is an image, read and display its thumbnail.
     if (_file.type.startsWith('image')) {
       FileReader reader = new FileReader();
       reader.on.load.add((e) {
         src = reader.result.toString().trim();
-        print(src);
-        //imgtag = '<img src="$src" alt="$filename">';
-        isImage = true;  
+        safeuri = new SafeUri.unsafe(src);
+        isImage = true;
         watcher.dispatch();
       });
-      reader.readAsDataUrl(_file);  
+      reader.readAsDataUrl(_file);
     }
   }
 }

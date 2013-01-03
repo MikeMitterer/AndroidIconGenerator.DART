@@ -2,4 +2,5 @@ name:  AndroidIconGeneratorDART
 description:  A sample application
 
 dependencies:
-  web_ui: "0.2.9"
+  #web_ui: "0.2.9"
+  web_ui: any

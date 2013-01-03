@@ -40,7 +40,7 @@ class DndFiles {
     event.preventDefault();
     _dropZone.classes.remove('hover');
     _readForm.reset();
-    
+
     //_onFilesSelected(event.dataTransfer.files);
     _addSelectedFilesToModel(event.dataTransfer.files);
   }
@@ -57,7 +57,7 @@ class DndFiles {
     }
     watcher.dispatch();
   }
-  
+
   void _onFilesSelected(List<File> files) {
     //_output.nodes.clear();
     Element list = new Element.tag('ul');
@@ -79,7 +79,7 @@ class DndFiles {
         });
         reader.readAsDataUrl(file);
 
-        _sendFormData(file);
+        //_sendFormData(file);
 
         item.nodes.add(thumbHolder);
       }
