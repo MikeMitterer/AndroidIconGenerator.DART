@@ -200,16 +200,33 @@ output {
 /* line 77, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
 #filelist li {
   padding-bottom: 1em;
+  float: left;
+  padding-right: 2em;
 }
-/* line 81, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+/* line 83, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
 #filelist .filename {
   font-weight: bold;
 }
-/* line 85, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+/* line 87, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
 #filelist .image {
   padding-top: 1em;
 }
-/* line 88, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+/* line 90, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
 #filelist .image > img {
-  width: 400px;
+  max-width: 400px;
+}
+/* line 22, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/mixins.less */
+.clearfix {
+  *zoom: 1;
+}
+/* line 24, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/mixins.less */
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 32, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/mixins.less */
+.clearfix:after {
+  clear: both;
 }

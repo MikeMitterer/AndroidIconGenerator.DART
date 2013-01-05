@@ -9,14 +9,14 @@
   <body>
     <h1>AndroidIconGenerator</h1>
     
-    <h3>Using Form Input, Drag and Drop, and Reading Files</h3>
+    <h3>Using Form Input, Drag and Drop, and Reading Files.</h3>
     <div id="drop-zone">
       Drop files here...
     </div>
     <form id="read">
       <input type="file" id="file" name="files[]" multiple />
     </form>
-    <ul id="filelist">
+    <ul id="filelist" class="clearfix">
       <template iterate='file in convertedfiles.files'>
         <li><span class="filename">{{file.filename}}</span>
         <template if='file.isImage'>

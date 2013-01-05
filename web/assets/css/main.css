@@ -1,0 +1,92 @@
+/*
+  Copyright (c) 2012, the Dart project authors.  Please see the AUTHORS file
+  for details. All rights reserved. Use of this source code is governed by a
+  BSD-style license that can be found in the LICENSE file.
+*/
+/* line 7, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+body {
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+/* line 16, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+output {
+  display: block;
+}
+/* line 20, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+#byte-content {
+  margin: 5px 0;
+  max-height: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+/* line 27, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+#byte-range {
+  margin-top: 5px;
+}
+/* line 31, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+#read {
+  margin-top: 1em;
+}
+/* line 35, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+#drop-zone {
+  border: 2px dashed #bbb;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #bbb;
+  font-size: 20pt;
+  font-weight: bold;
+  padding: 25px;
+  text-align: center;
+}
+/* line 47, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+#drop-zone.hover {
+  background-color: #def;
+  border-color: #777;
+  color: #777;
+}
+/* line 53, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+#progress-bar {
+  background-color: #9cf;
+  border: 1px solid #000;
+  font-size: 14px;
+  margin: 10px 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+  padding: 3px;
+}
+/* line 66, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+#progress-bar.loading {
+  opacity: 1.0;
+}
+/* line 70, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+.thumb {
+  border: 1px solid #000;
+  height: 75px;
+  margin: 10px 5px 0 0;
+}
+/* line 77, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+#filelist li {
+  padding-bottom: 1em;
+  float: left;
+  padding-right: 2em;
+}
+/* line 83, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+#filelist .filename {
+  font-weight: bold;
+}
+/* line 87, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+#filelist .image {
+  padding-top: 1em;
+}
+/* line 90, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+#filelist .image > img {
+  max-width: 400px;
+}
