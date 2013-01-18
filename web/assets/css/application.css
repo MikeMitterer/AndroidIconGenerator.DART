@@ -1,4 +1,4 @@
-/* line 10, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/reset.less */
+/* line 10, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
 article,
 aside,
 details,
@@ -11,7 +11,7 @@ nav,
 section {
   display: block;
 }
-/* line 26, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/reset.less */
+/* line 26, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
 audio,
 canvas,
 video {
@@ -19,27 +19,28 @@ video {
   *display: inline;
   *zoom: 1;
 }
-/* line 37, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/reset.less */
+/* line 37, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
 audio:not([controls]) {
   display: none;
 }
-/* line 44, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/reset.less */
+/* line 44, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
-/*
+/* line 50, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
 a:focus {
-  .tab-focus();
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
 }
-*/
-/* line 57, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/reset.less */
+/* line 54, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
 a:hover,
 a:active {
   outline: 0;
 }
-/* line 65, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/reset.less */
+/* line 62, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
 sub,
 sup {
   position: relative;
@@ -47,15 +48,15 @@ sup {
   line-height: 0;
   vertical-align: baseline;
 }
-/* line 72, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/reset.less */
+/* line 69, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
 sup {
   top: -0.5em;
 }
-/* line 75, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/reset.less */
+/* line 72, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
 sub {
   bottom: -0.25em;
 }
-/* line 82, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/reset.less */
+/* line 79, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
 img {
   /* Responsive images (ensure images don't scale beyond their parents) */
 
@@ -72,12 +73,12 @@ img {
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
-/* line 94, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/reset.less */
+/* line 91, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
 #map_canvas img,
 .google-maps img {
   max-width: none;
 }
-/* line 103, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/reset.less */
+/* line 100, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
 button,
 input,
 select,
@@ -86,19 +87,19 @@ textarea {
   font-size: 100%;
   vertical-align: middle;
 }
-/* line 111, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/reset.less */
+/* line 108, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
 button,
 input {
   *overflow: visible;
   line-height: normal;
 }
-/* line 116, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/reset.less */
+/* line 113, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
-/* line 121, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/reset.less */
+/* line 118, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -106,29 +107,134 @@ input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
-/* line 128, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/reset.less */
+/* line 125, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
+label,
+select,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"] {
+  cursor: pointer;
+}
+/* line 135, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
 input[type="search"] {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   -webkit-appearance: textfield;
 }
-/* line 134, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/reset.less */
+/* line 139, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
-/* line 138, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/reset.less */
+/* line 143, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
 textarea {
   overflow: auto;
   vertical-align: top;
+}
+@media print {
+  /* line 155, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
+  * {
+    text-shadow: none !important;
+    color: #000 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  /* line 162, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  /* line 167, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  /* line 171, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /* line 176, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+  /* line 182, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /* line 188, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
+  thead {
+    display: table-header-group;
+  }
+  /* line 192, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  /* line 197, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
+  img {
+    max-width: 100% !important;
+  }
+  @page  {
+    margin: 0.5cm;
+  }
+  /* line 205, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  /* line 212, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/reset.less */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/* line 12, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/mixins.less */
+.clearfix {
+  *zoom: 1;
+}
+/* line 14, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/mixins.less */
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/mixins.less */
+.clearfix:after {
+  clear: both;
+}
+/* line 106, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/mixins.less */
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+/* line 154, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/bootstrap/mixins.less */
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 /*
   Copyright (c) 2012, the Dart project authors.  Please see the AUTHORS file
   for details. All rights reserved. Use of this source code is governed by a
   BSD-style license that can be found in the LICENSE file.
 */
-/* line 7, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+/* line 7, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/application/main.less */
 body {
   color: #333;
   font-family: 'Open Sans', sans-serif;
@@ -137,26 +243,26 @@ body {
   line-height: 1.2em;
   margin: 15px;
 }
-/* line 16, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+/* line 16, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/application/main.less */
 output {
   display: block;
 }
-/* line 20, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+/* line 20, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/application/main.less */
 #byte-content {
   margin: 5px 0;
   max-height: 200px;
   overflow-x: hidden;
   overflow-y: auto;
 }
-/* line 27, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+/* line 27, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/application/main.less */
 #byte-range {
   margin-top: 5px;
 }
-/* line 31, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+/* line 31, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/application/main.less */
 #read {
   margin-top: 1em;
 }
-/* line 35, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+/* line 35, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/application/main.less */
 #drop-zone {
   border: 2px dashed #bbb;
   -webkit-border-radius: 5px;
@@ -168,13 +274,13 @@ output {
   padding: 25px;
   text-align: center;
 }
-/* line 47, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+/* line 47, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/application/main.less */
 #drop-zone.hover {
   background-color: #def;
   border-color: #777;
   color: #777;
 }
-/* line 53, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+/* line 53, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/application/main.less */
 #progress-bar {
   background-color: #9cf;
   border: 1px solid #000;
@@ -187,46 +293,34 @@ output {
   transition: opacity 0.5s linear;
   padding: 3px;
 }
-/* line 66, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+/* line 66, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/application/main.less */
 #progress-bar.loading {
   opacity: 1.0;
 }
-/* line 70, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+/* line 70, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/application/main.less */
 .thumb {
   border: 1px solid #000;
   height: 75px;
   margin: 10px 5px 0 0;
 }
-/* line 77, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+/* line 77, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/application/main.less */
 #filelist li {
   padding-bottom: 1em;
   float: left;
   padding-right: 2em;
 }
-/* line 83, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+/* line 83, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/application/main.less */
 #filelist .filename {
   font-weight: bold;
 }
-/* line 87, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+/* line 87, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/application/main.less */
 #filelist .image {
   padding-top: 1em;
 }
-/* line 90, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/main.less */
+/* line 90, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/application/main.less */
 #filelist .image > img {
   max-width: 400px;
 }
-/* line 22, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/mixins.less */
-.clearfix {
-  *zoom: 1;
-}
-/* line 24, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/mixins.less */
-.clearfix:before,
-.clearfix:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-/* line 32, /Users/mikemitterer/dart/AndroidIconGenerator/web/assets/less/mixins.less */
-.clearfix:after {
-  clear: both;
-}
+/*
+@import "application/responsive.less";
+*/

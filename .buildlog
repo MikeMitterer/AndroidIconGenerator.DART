@@ -12,3 +12,1507 @@ import 'package:web_ui/component_build.dart';
 ^
 build.dart finished [95 ms]
 
+---
+build.dart 
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Unhandled exception:
+FutureUnhandledException: exception while executing Future
+  NoSuchMethodError : method not found: 'add'
+  Receiver: null
+  Arguments: [" '"]
+original stack trace:
+  #0      Object._noSuchMethod (dart:core-patch:1360:3)
+  #1      Object.noSuchMethod (dart:core-patch:1361:25)
+  #2      directiveText (package:web_ui/src/codegen.dart:146:11)
+  #3      MainPageEmitter.run (package:web_ui/src/emitters.dart:872:40)
+  #4      Compiler._emitMainDart (package:web_ui/src/compiler.dart:223:53)
+  #5      Compiler._emit.<anonymous closure> (package:web_ui/src/compiler.dart:207:24)
+  #6      time (package:web_ui/src/utils.dart:37:24)
+  #7      Compiler._time (package:web_ui/src/compiler.dart:282:16)
+  #8      Compiler._emit (package:web_ui/src/compiler.dart:202:12)
+  #9      Compiler.run.<anonymous closure> (package:web_ui/src/compiler.dart:92:12)
+  #10     _FutureImpl.transform.<anonymous closure> (bootstrap:881:37)
+  
+#0      _FutureImpl._complete (bootstrap:844:11)
+#1      _FutureImpl._complete (bootstrap:848:5)
+#2      _FutureImpl._setException (bootstrap:873:14)
+#3      _CompleterImpl.completeException (bootstrap:952:30)
+#4      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#5      _FutureImpl._complete (bootstrap:832:22)
+#6      _FutureImpl._complete (bootstrap:848:5)
+#7      _FutureImpl._setException (bootstrap:873:14)
+#8      _CompleterImpl.completeException (bootstrap:952:30)
+#9      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#10     _FutureImpl._complete (bootstrap:832:22)
+#11     _FutureImpl._complete (bootstrap:848:5)
+#12     _FutureImpl._setException (bootstrap:873:14)
+#13     _CompleterImpl.completeException (bootstrap:952:30)
+#14     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#15     _FutureImpl._complete (bootstrap:832:22)
+#16     _FutureImpl._complete (bootstrap:848:5)
+#17     _FutureImpl._setException (bootstrap:873:14)
+#18     _CompleterImpl.completeException (bootstrap:952:30)
+#19     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#20     _FutureImpl._complete (bootstrap:832:22)
+#21     _FutureImpl._complete (bootstrap:848:5)
+#22     _FutureImpl._setException (bootstrap:873:14)
+#23     _CompleterImpl.completeException (bootstrap:952:30)
+#24     _FutureImpl.transform.<anonymous closure> (bootstrap:884:36)
+#25     _FutureImpl._complete (bootstrap:840:19)
+#26     _FutureImpl._complete (bootstrap:848:5)
+#27     _FutureImpl._setValue (bootstrap:862:14)
+#28     _CompleterImpl.complete (bootstrap:949:26)
+#29     FutureGroup._watchTask.<anonymous closure> (package:web_ui/src/utils.dart:146:28)
+#30     _FutureImpl._complete (bootstrap:840:19)
+#31     _FutureImpl._complete (bootstrap:848:5)
+#32     _FutureImpl._setValue (bootstrap:862:14)
+#33     _CompleterImpl.complete (bootstrap:949:26)
+#34     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#35     _FutureImpl._complete (bootstrap:840:19)
+#36     _FutureImpl._complete (bootstrap:848:5)
+#37     _FutureImpl._setValue (bootstrap:862:14)
+#38     _CompleterImpl.complete.complete (bootstrap:949:26)
+#39     _FutureImpl._complete (bootstrap:840:19)
+#40     _FutureImpl._complete (bootstrap:848:5)
+#41     _FutureImpl._setValue (bootstrap:862:14)
+#42     _CompleterImpl.complete (bootstrap:949:26)
+#43     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#44     _FutureImpl._complete (bootstrap:840:19)
+#45     _FutureImpl._complete (bootstrap:848:5)
+#46     _FutureImpl._setValue (bootstrap:862:14)
+#47     _CompleterImpl.complete (bootstrap:949:26)
+#48     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#49     _FutureImpl._complete (bootstrap:840:19)
+#50     _FutureImpl._complete (bootstrap:848:5)
+#51     _FutureImpl._setValue (bootstrap:862:14)
+#52     _CompleterImpl.complete.complete (bootstrap:949:26)
+#53     _FutureImpl._complete (bootstrap:840:19)
+#54     _FutureImpl._complete (bootstrap:848:5)
+#55     _FutureImpl._setValue (bootstrap:862:14)
+#56     _CompleterImpl.complete.complete (bootstrap:949:26)
+#57     _FutureImpl._complete (bootstrap:840:19)
+#58     _FutureImpl._complete (bootstrap:848:5)
+#59     _FutureImpl._setValue (bootstrap:862:14)
+#60     _CompleterImpl.complete (bootstrap:949:26)
+#61     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#62     _FutureImpl._complete (bootstrap:840:19)
+#63     _FutureImpl._complete (bootstrap:848:5)
+#64     _FutureImpl._setValue (bootstrap:862:14)
+#65     _CompleterImpl.complete.complete (bootstrap:949:26)
+#66     _FutureImpl._complete (bootstrap:840:19)
+#67     _FutureImpl._complete (bootstrap:848:5)
+#68     _FutureImpl._setValue (bootstrap:862:14)
+#69     _CompleterImpl.complete (bootstrap:949:26)
+#70     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#71     _FutureImpl._complete (bootstrap:840:19)
+#72     _FutureImpl._complete (bootstrap:848:5)
+#73     _FutureImpl._setValue (bootstrap:862:14)
+#74     _CompleterImpl.complete (bootstrap:949:26)
+#75     _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:65:27)
+#76     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [1037 ms]
+
+---
+build.dart --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"warning","params":{"file":"web/main.html","message":"End tag (div) seen too early. Expected other end tag.","line":55,"charStart":1718,"charEnd":1724}}]
+Unhandled exception:
+FutureUnhandledException: exception while executing Future
+  NoSuchMethodError : method not found: 'add'
+  Receiver: null
+  Arguments: [" '"]
+original stack trace:
+  #0      Object._noSuchMethod (dart:core-patch:1360:3)
+  #1      Object.noSuchMethod (dart:core-patch:1361:25)
+  #2      directiveText (package:web_ui/src/codegen.dart:146:11)
+  #3      MainPageEmitter.run (package:web_ui/src/emitters.dart:872:40)
+  #4      Compiler._emitMainDart (package:web_ui/src/compiler.dart:223:53)
+  #5      Compiler._emit.<anonymous closure> (package:web_ui/src/compiler.dart:207:24)
+  #6      time (package:web_ui/src/utils.dart:37:24)
+  #7      Compiler._time (package:web_ui/src/compiler.dart:282:16)
+  #8      Compiler._emit (package:web_ui/src/compiler.dart:202:12)
+  #9      Compiler.run.<anonymous closure> (package:web_ui/src/compiler.dart:92:12)
+  #10     _FutureImpl.transform.<anonymous closure> (bootstrap:881:37)
+  
+#0      _FutureImpl._complete (bootstrap:844:11)
+#1      _FutureImpl._complete (bootstrap:848:5)
+#2      _FutureImpl._setException (bootstrap:873:14)
+#3      _CompleterImpl.completeException (bootstrap:952:30)
+#4      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#5      _FutureImpl._complete (bootstrap:832:22)
+#6      _FutureImpl._complete (bootstrap:848:5)
+#7      _FutureImpl._setException (bootstrap:873:14)
+#8      _CompleterImpl.completeException (bootstrap:952:30)
+#9      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#10     _FutureImpl._complete (bootstrap:832:22)
+#11     _FutureImpl._complete (bootstrap:848:5)
+#12     _FutureImpl._setException (bootstrap:873:14)
+#13     _CompleterImpl.completeException (bootstrap:952:30)
+#14     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#15     _FutureImpl._complete (bootstrap:832:22)
+#16     _FutureImpl._complete (bootstrap:848:5)
+#17     _FutureImpl._setException (bootstrap:873:14)
+#18     _CompleterImpl.completeException (bootstrap:952:30)
+#19     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#20     _FutureImpl._complete (bootstrap:832:22)
+#21     _FutureImpl._complete (bootstrap:848:5)
+#22     _FutureImpl._setException (bootstrap:873:14)
+#23     _CompleterImpl.completeException (bootstrap:952:30)
+#24     _FutureImpl.transform.<anonymous closure> (bootstrap:884:36)
+#25     _FutureImpl._complete (bootstrap:840:19)
+#26     _FutureImpl._complete (bootstrap:848:5)
+#27     _FutureImpl._setValue (bootstrap:862:14)
+#28     _CompleterImpl.complete (bootstrap:949:26)
+#29     FutureGroup._watchTask.<anonymous closure> (package:web_ui/src/utils.dart:146:28)
+#30     _FutureImpl._complete (bootstrap:840:19)
+#31     _FutureImpl._complete (bootstrap:848:5)
+#32     _FutureImpl._setValue (bootstrap:862:14)
+#33     _CompleterImpl.complete (bootstrap:949:26)
+#34     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#35     _FutureImpl._complete (bootstrap:840:19)
+#36     _FutureImpl._complete (bootstrap:848:5)
+#37     _FutureImpl._setValue (bootstrap:862:14)
+#38     _CompleterImpl.complete.complete (bootstrap:949:26)
+#39     _FutureImpl._complete (bootstrap:840:19)
+#40     _FutureImpl._complete (bootstrap:848:5)
+#41     _FutureImpl._setValue (bootstrap:862:14)
+#42     _CompleterImpl.complete (bootstrap:949:26)
+#43     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#44     _FutureImpl._complete (bootstrap:840:19)
+#45     _FutureImpl._complete (bootstrap:848:5)
+#46     _FutureImpl._setValue (bootstrap:862:14)
+#47     _CompleterImpl.complete (bootstrap:949:26)
+#48     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#49     _FutureImpl._complete (bootstrap:840:19)
+#50     _FutureImpl._complete (bootstrap:848:5)
+#51     _FutureImpl._setValue (bootstrap:862:14)
+#52     _CompleterImpl.complete.complete (bootstrap:949:26)
+#53     _FutureImpl._complete (bootstrap:840:19)
+#54     _FutureImpl._complete (bootstrap:848:5)
+#55     _FutureImpl._setValue (bootstrap:862:14)
+#56     _CompleterImpl.complete.complete (bootstrap:949:26)
+#57     _FutureImpl._complete (bootstrap:840:19)
+#58     _FutureImpl._complete (bootstrap:848:5)
+#59     _FutureImpl._setValue (bootstrap:862:14)
+#60     _CompleterImpl.complete (bootstrap:949:26)
+#61     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#62     _FutureImpl._complete (bootstrap:840:19)
+#63     _FutureImpl._complete (bootstrap:848:5)
+#64     _FutureImpl._setValue (bootstrap:862:14)
+#65     _CompleterImpl.complete.complete (bootstrap:949:26)
+#66     _FutureImpl._complete (bootstrap:840:19)
+#67     _FutureImpl._complete (bootstrap:848:5)
+#68     _FutureImpl._setValue (bootstrap:862:14)
+#69     _CompleterImpl.complete (bootstrap:949:26)
+#70     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#71     _FutureImpl._complete (bootstrap:840:19)
+#72     _FutureImpl._complete (bootstrap:848:5)
+#73     _FutureImpl._setValue (bootstrap:862:14)
+#74     _CompleterImpl.complete (bootstrap:949:26)
+#75     _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:65:27)
+#76     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [1048 ms]
+
+---
+build.dart --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Unhandled exception:
+FutureUnhandledException: exception while executing Future
+  NoSuchMethodError : method not found: 'add'
+  Receiver: null
+  Arguments: [" '"]
+original stack trace:
+  #0      Object._noSuchMethod (dart:core-patch:1360:3)
+  #1      Object.noSuchMethod (dart:core-patch:1361:25)
+  #2      directiveText (package:web_ui/src/codegen.dart:146:11)
+  #3      MainPageEmitter.run (package:web_ui/src/emitters.dart:872:40)
+  #4      Compiler._emitMainDart (package:web_ui/src/compiler.dart:223:53)
+  #5      Compiler._emit.<anonymous closure> (package:web_ui/src/compiler.dart:207:24)
+  #6      time (package:web_ui/src/utils.dart:37:24)
+  #7      Compiler._time (package:web_ui/src/compiler.dart:282:16)
+  #8      Compiler._emit (package:web_ui/src/compiler.dart:202:12)
+  #9      Compiler.run.<anonymous closure> (package:web_ui/src/compiler.dart:92:12)
+  #10     _FutureImpl.transform.<anonymous closure> (bootstrap:881:37)
+  
+#0      _FutureImpl._complete (bootstrap:844:11)
+#1      _FutureImpl._complete (bootstrap:848:5)
+#2      _FutureImpl._setException (bootstrap:873:14)
+#3      _CompleterImpl.completeException (bootstrap:952:30)
+#4      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#5      _FutureImpl._complete (bootstrap:832:22)
+#6      _FutureImpl._complete (bootstrap:848:5)
+#7      _FutureImpl._setException (bootstrap:873:14)
+#8      _CompleterImpl.completeException (bootstrap:952:30)
+#9      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#10     _FutureImpl._complete (bootstrap:832:22)
+#11     _FutureImpl._complete (bootstrap:848:5)
+#12     _FutureImpl._setException (bootstrap:873:14)
+#13     _CompleterImpl.completeException (bootstrap:952:30)
+#14     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#15     _FutureImpl._complete (bootstrap:832:22)
+#16     _FutureImpl._complete (bootstrap:848:5)
+#17     _FutureImpl._setException (bootstrap:873:14)
+#18     _CompleterImpl.completeException (bootstrap:952:30)
+#19     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#20     _FutureImpl._complete (bootstrap:832:22)
+#21     _FutureImpl._complete (bootstrap:848:5)
+#22     _FutureImpl._setException (bootstrap:873:14)
+#23     _CompleterImpl.completeException (bootstrap:952:30)
+#24     _FutureImpl.transform.<anonymous closure> (bootstrap:884:36)
+#25     _FutureImpl._complete (bootstrap:840:19)
+#26     _FutureImpl._complete (bootstrap:848:5)
+#27     _FutureImpl._setValue (bootstrap:862:14)
+#28     _CompleterImpl.complete (bootstrap:949:26)
+#29     FutureGroup._watchTask.<anonymous closure> (package:web_ui/src/utils.dart:146:28)
+#30     _FutureImpl._complete (bootstrap:840:19)
+#31     _FutureImpl._complete (bootstrap:848:5)
+#32     _FutureImpl._setValue (bootstrap:862:14)
+#33     _CompleterImpl.complete (bootstrap:949:26)
+#34     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#35     _FutureImpl._complete (bootstrap:840:19)
+#36     _FutureImpl._complete (bootstrap:848:5)
+#37     _FutureImpl._setValue (bootstrap:862:14)
+#38     _CompleterImpl.complete.complete (bootstrap:949:26)
+#39     _FutureImpl._complete (bootstrap:840:19)
+#40     _FutureImpl._complete (bootstrap:848:5)
+#41     _FutureImpl._setValue (bootstrap:862:14)
+#42     _CompleterImpl.complete (bootstrap:949:26)
+#43     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#44     _FutureImpl._complete (bootstrap:840:19)
+#45     _FutureImpl._complete (bootstrap:848:5)
+#46     _FutureImpl._setValue (bootstrap:862:14)
+#47     _CompleterImpl.complete (bootstrap:949:26)
+#48     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#49     _FutureImpl._complete (bootstrap:840:19)
+#50     _FutureImpl._complete (bootstrap:848:5)
+#51     _FutureImpl._setValue (bootstrap:862:14)
+#52     _CompleterImpl.complete.complete (bootstrap:949:26)
+#53     _FutureImpl._complete (bootstrap:840:19)
+#54     _FutureImpl._complete (bootstrap:848:5)
+#55     _FutureImpl._setValue (bootstrap:862:14)
+#56     _CompleterImpl.complete.complete (bootstrap:949:26)
+#57     _FutureImpl._complete (bootstrap:840:19)
+#58     _FutureImpl._complete (bootstrap:848:5)
+#59     _FutureImpl._setValue (bootstrap:862:14)
+#60     _CompleterImpl.complete (bootstrap:949:26)
+#61     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#62     _FutureImpl._complete (bootstrap:840:19)
+#63     _FutureImpl._complete (bootstrap:848:5)
+#64     _FutureImpl._setValue (bootstrap:862:14)
+#65     _CompleterImpl.complete.complete (bootstrap:949:26)
+#66     _FutureImpl._complete (bootstrap:840:19)
+#67     _FutureImpl._complete (bootstrap:848:5)
+#68     _FutureImpl._setValue (bootstrap:862:14)
+#69     _CompleterImpl.complete (bootstrap:949:26)
+#70     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#71     _FutureImpl._complete (bootstrap:840:19)
+#72     _FutureImpl._complete (bootstrap:848:5)
+#73     _FutureImpl._setValue (bootstrap:862:14)
+#74     _CompleterImpl.complete (bootstrap:949:26)
+#75     _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:65:27)
+#76     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [1025 ms]
+
+---
+build.dart --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Unhandled exception:
+FutureUnhandledException: exception while executing Future
+  NoSuchMethodError : method not found: 'add'
+  Receiver: null
+  Arguments: [" '"]
+original stack trace:
+  #0      Object._noSuchMethod (dart:core-patch:1360:3)
+  #1      Object.noSuchMethod (dart:core-patch:1361:25)
+  #2      directiveText (package:web_ui/src/codegen.dart:146:11)
+  #3      MainPageEmitter.run (package:web_ui/src/emitters.dart:872:40)
+  #4      Compiler._emitMainDart (package:web_ui/src/compiler.dart:223:53)
+  #5      Compiler._emit.<anonymous closure> (package:web_ui/src/compiler.dart:207:24)
+  #6      time (package:web_ui/src/utils.dart:37:24)
+  #7      Compiler._time (package:web_ui/src/compiler.dart:282:16)
+  #8      Compiler._emit (package:web_ui/src/compiler.dart:202:12)
+  #9      Compiler.run.<anonymous closure> (package:web_ui/src/compiler.dart:92:12)
+  #10     _FutureImpl.transform.<anonymous closure> (bootstrap:881:37)
+  
+#0      _FutureImpl._complete (bootstrap:844:11)
+#1      _FutureImpl._complete (bootstrap:848:5)
+#2      _FutureImpl._setException (bootstrap:873:14)
+#3      _CompleterImpl.completeException (bootstrap:952:30)
+#4      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#5      _FutureImpl._complete (bootstrap:832:22)
+#6      _FutureImpl._complete (bootstrap:848:5)
+#7      _FutureImpl._setException (bootstrap:873:14)
+#8      _CompleterImpl.completeException (bootstrap:952:30)
+#9      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#10     _FutureImpl._complete (bootstrap:832:22)
+#11     _FutureImpl._complete (bootstrap:848:5)
+#12     _FutureImpl._setException (bootstrap:873:14)
+#13     _CompleterImpl.completeException (bootstrap:952:30)
+#14     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#15     _FutureImpl._complete (bootstrap:832:22)
+#16     _FutureImpl._complete (bootstrap:848:5)
+#17     _FutureImpl._setException (bootstrap:873:14)
+#18     _CompleterImpl.completeException (bootstrap:952:30)
+#19     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#20     _FutureImpl._complete (bootstrap:832:22)
+#21     _FutureImpl._complete (bootstrap:848:5)
+#22     _FutureImpl._setException (bootstrap:873:14)
+#23     _CompleterImpl.completeException (bootstrap:952:30)
+#24     _FutureImpl.transform.<anonymous closure> (bootstrap:884:36)
+#25     _FutureImpl._complete (bootstrap:840:19)
+#26     _FutureImpl._complete (bootstrap:848:5)
+#27     _FutureImpl._setValue (bootstrap:862:14)
+#28     _CompleterImpl.complete (bootstrap:949:26)
+#29     FutureGroup._watchTask.<anonymous closure> (package:web_ui/src/utils.dart:146:28)
+#30     _FutureImpl._complete (bootstrap:840:19)
+#31     _FutureImpl._complete (bootstrap:848:5)
+#32     _FutureImpl._setValue (bootstrap:862:14)
+#33     _CompleterImpl.complete (bootstrap:949:26)
+#34     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#35     _FutureImpl._complete (bootstrap:840:19)
+#36     _FutureImpl._complete (bootstrap:848:5)
+#37     _FutureImpl._setValue (bootstrap:862:14)
+#38     _CompleterImpl.complete.complete (bootstrap:949:26)
+#39     _FutureImpl._complete (bootstrap:840:19)
+#40     _FutureImpl._complete (bootstrap:848:5)
+#41     _FutureImpl._setValue (bootstrap:862:14)
+#42     _CompleterImpl.complete (bootstrap:949:26)
+#43     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#44     _FutureImpl._complete (bootstrap:840:19)
+#45     _FutureImpl._complete (bootstrap:848:5)
+#46     _FutureImpl._setValue (bootstrap:862:14)
+#47     _CompleterImpl.complete (bootstrap:949:26)
+#48     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#49     _FutureImpl._complete (bootstrap:840:19)
+#50     _FutureImpl._complete (bootstrap:848:5)
+#51     _FutureImpl._setValue (bootstrap:862:14)
+#52     _CompleterImpl.complete.complete (bootstrap:949:26)
+#53     _FutureImpl._complete (bootstrap:840:19)
+#54     _FutureImpl._complete (bootstrap:848:5)
+#55     _FutureImpl._setValue (bootstrap:862:14)
+#56     _CompleterImpl.complete.complete (bootstrap:949:26)
+#57     _FutureImpl._complete (bootstrap:840:19)
+#58     _FutureImpl._complete (bootstrap:848:5)
+#59     _FutureImpl._setValue (bootstrap:862:14)
+#60     _CompleterImpl.complete (bootstrap:949:26)
+#61     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#62     _FutureImpl._complete (bootstrap:840:19)
+#63     _FutureImpl._complete (bootstrap:848:5)
+#64     _FutureImpl._setValue (bootstrap:862:14)
+#65     _CompleterImpl.complete.complete (bootstrap:949:26)
+#66     _FutureImpl._complete (bootstrap:840:19)
+#67     _FutureImpl._complete (bootstrap:848:5)
+#68     _FutureImpl._setValue (bootstrap:862:14)
+#69     _CompleterImpl.complete (bootstrap:949:26)
+#70     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#71     _FutureImpl._complete (bootstrap:840:19)
+#72     _FutureImpl._complete (bootstrap:848:5)
+#73     _FutureImpl._setValue (bootstrap:862:14)
+#74     _CompleterImpl.complete (bootstrap:949:26)
+#75     _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:65:27)
+#76     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [1015 ms]
+
+---
+build.dart --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Unhandled exception:
+FutureUnhandledException: exception while executing Future
+  NoSuchMethodError : method not found: 'add'
+  Receiver: null
+  Arguments: [" '"]
+original stack trace:
+  #0      Object._noSuchMethod (dart:core-patch:1360:3)
+  #1      Object.noSuchMethod (dart:core-patch:1361:25)
+  #2      directiveText (package:web_ui/src/codegen.dart:146:11)
+  #3      MainPageEmitter.run (package:web_ui/src/emitters.dart:872:40)
+  #4      Compiler._emitMainDart (package:web_ui/src/compiler.dart:223:53)
+  #5      Compiler._emit.<anonymous closure> (package:web_ui/src/compiler.dart:207:24)
+  #6      time (package:web_ui/src/utils.dart:37:24)
+  #7      Compiler._time (package:web_ui/src/compiler.dart:282:16)
+  #8      Compiler._emit (package:web_ui/src/compiler.dart:202:12)
+  #9      Compiler.run.<anonymous closure> (package:web_ui/src/compiler.dart:92:12)
+  #10     _FutureImpl.transform.<anonymous closure> (bootstrap:881:37)
+  
+#0      _FutureImpl._complete (bootstrap:844:11)
+#1      _FutureImpl._complete (bootstrap:848:5)
+#2      _FutureImpl._setException (bootstrap:873:14)
+#3      _CompleterImpl.completeException (bootstrap:952:30)
+#4      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#5      _FutureImpl._complete (bootstrap:832:22)
+#6      _FutureImpl._complete (bootstrap:848:5)
+#7      _FutureImpl._setException (bootstrap:873:14)
+#8      _CompleterImpl.completeException (bootstrap:952:30)
+#9      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#10     _FutureImpl._complete (bootstrap:832:22)
+#11     _FutureImpl._complete (bootstrap:848:5)
+#12     _FutureImpl._setException (bootstrap:873:14)
+#13     _CompleterImpl.completeException (bootstrap:952:30)
+#14     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#15     _FutureImpl._complete (bootstrap:832:22)
+#16     _FutureImpl._complete (bootstrap:848:5)
+#17     _FutureImpl._setException (bootstrap:873:14)
+#18     _CompleterImpl.completeException (bootstrap:952:30)
+#19     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#20     _FutureImpl._complete (bootstrap:832:22)
+#21     _FutureImpl._complete (bootstrap:848:5)
+#22     _FutureImpl._setException (bootstrap:873:14)
+#23     _CompleterImpl.completeException (bootstrap:952:30)
+#24     _FutureImpl.transform.<anonymous closure> (bootstrap:884:36)
+#25     _FutureImpl._complete (bootstrap:840:19)
+#26     _FutureImpl._complete (bootstrap:848:5)
+#27     _FutureImpl._setValue (bootstrap:862:14)
+#28     _CompleterImpl.complete (bootstrap:949:26)
+#29     FutureGroup._watchTask.<anonymous closure> (package:web_ui/src/utils.dart:146:28)
+#30     _FutureImpl._complete (bootstrap:840:19)
+#31     _FutureImpl._complete (bootstrap:848:5)
+#32     _FutureImpl._setValue (bootstrap:862:14)
+#33     _CompleterImpl.complete (bootstrap:949:26)
+#34     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#35     _FutureImpl._complete (bootstrap:840:19)
+#36     _FutureImpl._complete (bootstrap:848:5)
+#37     _FutureImpl._setValue (bootstrap:862:14)
+#38     _CompleterImpl.complete.complete (bootstrap:949:26)
+#39     _FutureImpl._complete (bootstrap:840:19)
+#40     _FutureImpl._complete (bootstrap:848:5)
+#41     _FutureImpl._setValue (bootstrap:862:14)
+#42     _CompleterImpl.complete (bootstrap:949:26)
+#43     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#44     _FutureImpl._complete (bootstrap:840:19)
+#45     _FutureImpl._complete (bootstrap:848:5)
+#46     _FutureImpl._setValue (bootstrap:862:14)
+#47     _CompleterImpl.complete (bootstrap:949:26)
+#48     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#49     _FutureImpl._complete (bootstrap:840:19)
+#50     _FutureImpl._complete (bootstrap:848:5)
+#51     _FutureImpl._setValue (bootstrap:862:14)
+#52     _CompleterImpl.complete.complete (bootstrap:949:26)
+#53     _FutureImpl._complete (bootstrap:840:19)
+#54     _FutureImpl._complete (bootstrap:848:5)
+#55     _FutureImpl._setValue (bootstrap:862:14)
+#56     _CompleterImpl.complete.complete (bootstrap:949:26)
+#57     _FutureImpl._complete (bootstrap:840:19)
+#58     _FutureImpl._complete (bootstrap:848:5)
+#59     _FutureImpl._setValue (bootstrap:862:14)
+#60     _CompleterImpl.complete (bootstrap:949:26)
+#61     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#62     _FutureImpl._complete (bootstrap:840:19)
+#63     _FutureImpl._complete (bootstrap:848:5)
+#64     _FutureImpl._setValue (bootstrap:862:14)
+#65     _CompleterImpl.complete.complete (bootstrap:949:26)
+#66     _FutureImpl._complete (bootstrap:840:19)
+#67     _FutureImpl._complete (bootstrap:848:5)
+#68     _FutureImpl._setValue (bootstrap:862:14)
+#69     _CompleterImpl.complete (bootstrap:949:26)
+#70     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#71     _FutureImpl._complete (bootstrap:840:19)
+#72     _FutureImpl._complete (bootstrap:848:5)
+#73     _FutureImpl._setValue (bootstrap:862:14)
+#74     _CompleterImpl.complete (bootstrap:949:26)
+#75     _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:65:27)
+#76     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [1034 ms]
+
+---
+build.dart --changed=pubspec.lock
+
+build.dart finished [219 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [237 ms]
+
+---
+build.dart --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m206 ms[0m
+build.dart finished [432 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [234 ms]
+
+---
+build.dart --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m202 ms[0m
+build.dart finished [419 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [223 ms]
+
+---
+build.dart --changed=web/main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m198 ms[0m
+build.dart finished [425 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [234 ms]
+
+---
+build.dart 
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m199 ms[0m
+build.dart finished [402 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [210 ms]
+
+---
+build.dart --changed=pubspec.yaml --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m198 ms[0m
+build.dart finished [399 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [215 ms]
+
+---
+build.dart --changed=pubspec.lock
+
+build.dart finished [198 ms]
+
+---
+build.dart --changed=lib/src/model/AndroidFile.dart --changed=lib/src/model/ConvertedFiles.dart --changed=lib/s...
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m206 ms[0m
+build.dart finished [518 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [251 ms]
+
+---
+build.dart --removed=web/view/EventsManager.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m216 ms[0m
+build.dart finished [612 ms]
+
+---
+build.dart --changed=lib/src/view/EventsManager.dart --changed=web/out/main.dart --changed=web/out/main.html --...
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m213 ms[0m
+build.dart finished [450 ms]
+
+---
+build.dart --removed=web/out/main.dart --removed=web/out/main.html --removed=web/out/main.html_bootstrap.dart -...
+
+build.dart finished [277 ms]
+
+---
+build.dart --changed=lib/lib.dart --removed=lib/src/model/eventbus/lib.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Unhandled exception:
+FutureUnhandledException: exception while executing Future
+  FileIOException: Cannot retrieve full path for file 'web/packages' (OS Error: No such file or directory, errno = 2)
+original stack trace:
+  #0      _File.throwIfError (dart:io:1409:7)
+  #1      _File.fullPathSync (dart:io:1275:17)
+  #2      symlinkPubPackages (package:web_ui/dwc.dart:143:58)
+  #3      run.<anonymous closure>.<anonymous closure> (package:web_ui/dwc.dart:76:39)
+  #4      _FutureImpl.chain.<anonymous closure> (bootstrap:897:32)
+  
+#0      _FutureImpl._complete (bootstrap:844:11)
+#1      _FutureImpl._complete (bootstrap:848:5)
+#2      _FutureImpl._setException (bootstrap:873:14)
+#3      _CompleterImpl.completeException (bootstrap:952:30)
+#4      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#5      _FutureImpl._complete (bootstrap:832:22)
+#6      _FutureImpl._complete (bootstrap:848:5)
+#7      _FutureImpl._setException (bootstrap:873:14)
+#8      _CompleterImpl.completeException (bootstrap:952:30)
+#9      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#10     _FutureImpl._complete (bootstrap:832:22)
+#11     _FutureImpl._complete (bootstrap:848:5)
+#12     _FutureImpl._setException (bootstrap:873:14)
+#13     _CompleterImpl.completeException (bootstrap:952:30)
+#14     _FutureImpl.chain.<anonymous closure> (bootstrap:900:36)
+#15     _FutureImpl._complete (bootstrap:840:19)
+#16     _FutureImpl._complete (bootstrap:848:5)
+#17     _FutureImpl._setValue (bootstrap:862:14)
+#18     _CompleterImpl.complete (bootstrap:949:26)
+#19     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#20     _FutureImpl._complete (bootstrap:840:19)
+#21     _FutureImpl._complete (bootstrap:848:5)
+#22     _FutureImpl._setValue (bootstrap:862:14)
+#23     _CompleterImpl.complete (bootstrap:949:26)
+#24     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#25     _FutureImpl._complete (bootstrap:840:19)
+#26     _FutureImpl._complete (bootstrap:848:5)
+#27     _FutureImpl._setValue (bootstrap:862:14)
+#28     _CompleterImpl.complete (bootstrap:949:26)
+#29     FutureGroup._watchTask.<anonymous closure> (package:web_ui/src/utils.dart:146:28)
+#30     _FutureImpl._complete (bootstrap:840:19)
+#31     _FutureImpl._complete (bootstrap:848:5)
+#32     _FutureImpl._setValue (bootstrap:862:14)
+#33     _CompleterImpl.complete (bootstrap:949:26)
+#34     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#35     _FutureImpl._complete (bootstrap:840:19)
+#36     _FutureImpl._complete (bootstrap:848:5)
+#37     _FutureImpl._setValue (bootstrap:862:14)
+#38     _CompleterImpl.complete.complete (bootstrap:949:26)
+#39     _FutureImpl._complete (bootstrap:840:19)
+#40     _FutureImpl._complete (bootstrap:848:5)
+#41     _FutureImpl._setValue (bootstrap:862:14)
+#42     _CompleterImpl.complete (bootstrap:949:26)
+#43     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#44     _FutureImpl._complete (bootstrap:840:19)
+#45     _FutureImpl._complete (bootstrap:848:5)
+#46     _FutureImpl._setValue (bootstrap:862:14)
+#47     _CompleterImpl.complete (bootstrap:949:26)
+#48     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#49     _FutureImpl._complete (bootstrap:840:19)
+#50     _FutureImpl._complete (bootstrap:848:5)
+#51     _FutureImpl._setValue (bootstrap:862:14)
+#52     _CompleterImpl.complete.complete (bootstrap:949:26)
+#53     _FutureImpl._complete (bootstrap:840:19)
+#54     _FutureImpl._complete (bootstrap:848:5)
+#55     _FutureImpl._setValue (bootstrap:862:14)
+#56     _CompleterImpl.complete.complete (bootstrap:949:26)
+#57     _FutureImpl._complete (bootstrap:840:19)
+#58     _FutureImpl._complete (bootstrap:848:5)
+#59     _FutureImpl._setValue (bootstrap:862:14)
+#60     _CompleterImpl.complete (bootstrap:949:26)
+#61     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#62     _FutureImpl._complete (bootstrap:840:19)
+#63     _FutureImpl._complete (bootstrap:848:5)
+#64     _FutureImpl._setValue (bootstrap:862:14)
+#65     _CompleterImpl.complete.complete (bootstrap:949:26)
+#66     _FutureImpl._complete (bootstrap:840:19)
+#67     _FutureImpl._complete (bootstrap:848:5)
+#68     _FutureImpl._setValue (bootstrap:862:14)
+#69     _CompleterImpl.complete (bootstrap:949:26)
+#70     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#71     _FutureImpl._complete (bootstrap:840:19)
+#72     _FutureImpl._complete (bootstrap:848:5)
+#73     _FutureImpl._setValue (bootstrap:862:14)
+#74     _CompleterImpl.complete (bootstrap:949:26)
+#75     _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:65:27)
+#76     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [1291 ms]
+
+---
+build.dart --changed=lib/eventbus.dart --removed=lib/lib.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Unhandled exception:
+FutureUnhandledException: exception while executing Future
+  FileIOException: Cannot retrieve full path for file 'web/packages' (OS Error: No such file or directory, errno = 2)
+original stack trace:
+  #0      _File.throwIfError (dart:io:1409:7)
+  #1      _File.fullPathSync (dart:io:1275:17)
+  #2      symlinkPubPackages (package:web_ui/dwc.dart:143:58)
+  #3      run.<anonymous closure>.<anonymous closure> (package:web_ui/dwc.dart:76:39)
+  #4      _FutureImpl.chain.<anonymous closure> (bootstrap:897:32)
+  
+#0      _FutureImpl._complete (bootstrap:844:11)
+#1      _FutureImpl._complete (bootstrap:848:5)
+#2      _FutureImpl._setException (bootstrap:873:14)
+#3      _CompleterImpl.completeException (bootstrap:952:30)
+#4      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#5      _FutureImpl._complete (bootstrap:832:22)
+#6      _FutureImpl._complete (bootstrap:848:5)
+#7      _FutureImpl._setException (bootstrap:873:14)
+#8      _CompleterImpl.completeException (bootstrap:952:30)
+#9      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#10     _FutureImpl._complete (bootstrap:832:22)
+#11     _FutureImpl._complete (bootstrap:848:5)
+#12     _FutureImpl._setException (bootstrap:873:14)
+#13     _CompleterImpl.completeException (bootstrap:952:30)
+#14     _FutureImpl.chain.<anonymous closure> (bootstrap:900:36)
+#15     _FutureImpl._complete (bootstrap:840:19)
+#16     _FutureImpl._complete (bootstrap:848:5)
+#17     _FutureImpl._setValue (bootstrap:862:14)
+#18     _CompleterImpl.complete (bootstrap:949:26)
+#19     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#20     _FutureImpl._complete (bootstrap:840:19)
+#21     _FutureImpl._complete (bootstrap:848:5)
+#22     _FutureImpl._setValue (bootstrap:862:14)
+#23     _CompleterImpl.complete (bootstrap:949:26)
+#24     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#25     _FutureImpl._complete (bootstrap:840:19)
+#26     _FutureImpl._complete (bootstrap:848:5)
+#27     _FutureImpl._setValue (bootstrap:862:14)
+#28     _CompleterImpl.complete (bootstrap:949:26)
+#29     FutureGroup._watchTask.<anonymous closure> (package:web_ui/src/utils.dart:146:28)
+#30     _FutureImpl._complete (bootstrap:840:19)
+#31     _FutureImpl._complete (bootstrap:848:5)
+#32     _FutureImpl._setValue (bootstrap:862:14)
+#33     _CompleterImpl.complete (bootstrap:949:26)
+#34     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#35     _FutureImpl._complete (bootstrap:840:19)
+#36     _FutureImpl._complete (bootstrap:848:5)
+#37     _FutureImpl._setValue (bootstrap:862:14)
+#38     _CompleterImpl.complete.complete (bootstrap:949:26)
+#39     _FutureImpl._complete (bootstrap:840:19)
+#40     _FutureImpl._complete (bootstrap:848:5)
+#41     _FutureImpl._setValue (bootstrap:862:14)
+#42     _CompleterImpl.complete (bootstrap:949:26)
+#43     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#44     _FutureImpl._complete (bootstrap:840:19)
+#45     _FutureImpl._complete (bootstrap:848:5)
+#46     _FutureImpl._setValue (bootstrap:862:14)
+#47     _CompleterImpl.complete (bootstrap:949:26)
+#48     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#49     _FutureImpl._complete (bootstrap:840:19)
+#50     _FutureImpl._complete (bootstrap:848:5)
+#51     _FutureImpl._setValue (bootstrap:862:14)
+#52     _CompleterImpl.complete.complete (bootstrap:949:26)
+#53     _FutureImpl._complete (bootstrap:840:19)
+#54     _FutureImpl._complete (bootstrap:848:5)
+#55     _FutureImpl._setValue (bootstrap:862:14)
+#56     _CompleterImpl.complete.complete (bootstrap:949:26)
+#57     _FutureImpl._complete (bootstrap:840:19)
+#58     _FutureImpl._complete (bootstrap:848:5)
+#59     _FutureImpl._setValue (bootstrap:862:14)
+#60     _CompleterImpl.complete (bootstrap:949:26)
+#61     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#62     _FutureImpl._complete (bootstrap:840:19)
+#63     _FutureImpl._complete (bootstrap:848:5)
+#64     _FutureImpl._setValue (bootstrap:862:14)
+#65     _CompleterImpl.complete.complete (bootstrap:949:26)
+#66     _FutureImpl._complete (bootstrap:840:19)
+#67     _FutureImpl._complete (bootstrap:848:5)
+#68     _FutureImpl._setValue (bootstrap:862:14)
+#69     _CompleterImpl.complete (bootstrap:949:26)
+#70     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#71     _FutureImpl._complete (bootstrap:840:19)
+#72     _FutureImpl._complete (bootstrap:848:5)
+#73     _FutureImpl._setValue (bootstrap:862:14)
+#74     _CompleterImpl.complete (bootstrap:949:26)
+#75     _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:65:27)
+#76     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [1247 ms]
+
+---
+build.dart --changed=web/main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Unhandled exception:
+FutureUnhandledException: exception while executing Future
+  FileIOException: Cannot retrieve full path for file 'web/packages' (OS Error: No such file or directory, errno = 2)
+original stack trace:
+  #0      _File.throwIfError (dart:io:1409:7)
+  #1      _File.fullPathSync (dart:io:1275:17)
+  #2      symlinkPubPackages (package:web_ui/dwc.dart:143:58)
+  #3      run.<anonymous closure>.<anonymous closure> (package:web_ui/dwc.dart:76:39)
+  #4      _FutureImpl.chain.<anonymous closure> (bootstrap:897:32)
+  
+#0      _FutureImpl._complete (bootstrap:844:11)
+#1      _FutureImpl._complete (bootstrap:848:5)
+#2      _FutureImpl._setException (bootstrap:873:14)
+#3      _CompleterImpl.completeException (bootstrap:952:30)
+#4      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#5      _FutureImpl._complete (bootstrap:832:22)
+#6      _FutureImpl._complete (bootstrap:848:5)
+#7      _FutureImpl._setException (bootstrap:873:14)
+#8      _CompleterImpl.completeException (bootstrap:952:30)
+#9      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#10     _FutureImpl._complete (bootstrap:832:22)
+#11     _FutureImpl._complete (bootstrap:848:5)
+#12     _FutureImpl._setException (bootstrap:873:14)
+#13     _CompleterImpl.completeException (bootstrap:952:30)
+#14     _FutureImpl.chain.<anonymous closure> (bootstrap:900:36)
+#15     _FutureImpl._complete (bootstrap:840:19)
+#16     _FutureImpl._complete (bootstrap:848:5)
+#17     _FutureImpl._setValue (bootstrap:862:14)
+#18     _CompleterImpl.complete (bootstrap:949:26)
+#19     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#20     _FutureImpl._complete (bootstrap:840:19)
+#21     _FutureImpl._complete (bootstrap:848:5)
+#22     _FutureImpl._setValue (bootstrap:862:14)
+#23     _CompleterImpl.complete (bootstrap:949:26)
+#24     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#25     _FutureImpl._complete (bootstrap:840:19)
+#26     _FutureImpl._complete (bootstrap:848:5)
+#27     _FutureImpl._setValue (bootstrap:862:14)
+#28     _CompleterImpl.complete (bootstrap:949:26)
+#29     FutureGroup._watchTask.<anonymous closure> (package:web_ui/src/utils.dart:146:28)
+#30     _FutureImpl._complete (bootstrap:840:19)
+#31     _FutureImpl._complete (bootstrap:848:5)
+#32     _FutureImpl._setValue (bootstrap:862:14)
+#33     _CompleterImpl.complete (bootstrap:949:26)
+#34     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#35     _FutureImpl._complete (bootstrap:840:19)
+#36     _FutureImpl._complete (bootstrap:848:5)
+#37     _FutureImpl._setValue (bootstrap:862:14)
+#38     _CompleterImpl.complete.complete (bootstrap:949:26)
+#39     _FutureImpl._complete (bootstrap:840:19)
+#40     _FutureImpl._complete (bootstrap:848:5)
+#41     _FutureImpl._setValue (bootstrap:862:14)
+#42     _CompleterImpl.complete (bootstrap:949:26)
+#43     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#44     _FutureImpl._complete (bootstrap:840:19)
+#45     _FutureImpl._complete (bootstrap:848:5)
+#46     _FutureImpl._setValue (bootstrap:862:14)
+#47     _CompleterImpl.complete (bootstrap:949:26)
+#48     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#49     _FutureImpl._complete (bootstrap:840:19)
+#50     _FutureImpl._complete (bootstrap:848:5)
+#51     _FutureImpl._setValue (bootstrap:862:14)
+#52     _CompleterImpl.complete.complete (bootstrap:949:26)
+#53     _FutureImpl._complete (bootstrap:840:19)
+#54     _FutureImpl._complete (bootstrap:848:5)
+#55     _FutureImpl._setValue (bootstrap:862:14)
+#56     _CompleterImpl.complete.complete (bootstrap:949:26)
+#57     _FutureImpl._complete (bootstrap:840:19)
+#58     _FutureImpl._complete (bootstrap:848:5)
+#59     _FutureImpl._setValue (bootstrap:862:14)
+#60     _CompleterImpl.complete (bootstrap:949:26)
+#61     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#62     _FutureImpl._complete (bootstrap:840:19)
+#63     _FutureImpl._complete (bootstrap:848:5)
+#64     _FutureImpl._setValue (bootstrap:862:14)
+#65     _CompleterImpl.complete.complete (bootstrap:949:26)
+#66     _FutureImpl._complete (bootstrap:840:19)
+#67     _FutureImpl._complete (bootstrap:848:5)
+#68     _FutureImpl._setValue (bootstrap:862:14)
+#69     _CompleterImpl.complete (bootstrap:949:26)
+#70     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#71     _FutureImpl._complete (bootstrap:840:19)
+#72     _FutureImpl._complete (bootstrap:848:5)
+#73     _FutureImpl._setValue (bootstrap:862:14)
+#74     _CompleterImpl.complete (bootstrap:949:26)
+#75     _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:65:27)
+#76     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [1184 ms]
+
+---
+build.dart --changed=web/main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Unhandled exception:
+FutureUnhandledException: exception while executing Future
+  FileIOException: Cannot retrieve full path for file 'web/packages' (OS Error: No such file or directory, errno = 2)
+original stack trace:
+  #0      _File.throwIfError (dart:io:1409:7)
+  #1      _File.fullPathSync (dart:io:1275:17)
+  #2      symlinkPubPackages (package:web_ui/dwc.dart:143:58)
+  #3      run.<anonymous closure>.<anonymous closure> (package:web_ui/dwc.dart:76:39)
+  #4      _FutureImpl.chain.<anonymous closure> (bootstrap:897:32)
+  
+#0      _FutureImpl._complete (bootstrap:844:11)
+#1      _FutureImpl._complete (bootstrap:848:5)
+#2      _FutureImpl._setException (bootstrap:873:14)
+#3      _CompleterImpl.completeException (bootstrap:952:30)
+#4      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#5      _FutureImpl._complete (bootstrap:832:22)
+#6      _FutureImpl._complete (bootstrap:848:5)
+#7      _FutureImpl._setException (bootstrap:873:14)
+#8      _CompleterImpl.completeException (bootstrap:952:30)
+#9      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#10     _FutureImpl._complete (bootstrap:832:22)
+#11     _FutureImpl._complete (bootstrap:848:5)
+#12     _FutureImpl._setException (bootstrap:873:14)
+#13     _CompleterImpl.completeException (bootstrap:952:30)
+#14     _FutureImpl.chain.<anonymous closure> (bootstrap:900:36)
+#15     _FutureImpl._complete (bootstrap:840:19)
+#16     _FutureImpl._complete (bootstrap:848:5)
+#17     _FutureImpl._setValue (bootstrap:862:14)
+#18     _CompleterImpl.complete (bootstrap:949:26)
+#19     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#20     _FutureImpl._complete (bootstrap:840:19)
+#21     _FutureImpl._complete (bootstrap:848:5)
+#22     _FutureImpl._setValue (bootstrap:862:14)
+#23     _CompleterImpl.complete (bootstrap:949:26)
+#24     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#25     _FutureImpl._complete (bootstrap:840:19)
+#26     _FutureImpl._complete (bootstrap:848:5)
+#27     _FutureImpl._setValue (bootstrap:862:14)
+#28     _CompleterImpl.complete (bootstrap:949:26)
+#29     FutureGroup._watchTask.<anonymous closure> (package:web_ui/src/utils.dart:146:28)
+#30     _FutureImpl._complete (bootstrap:840:19)
+#31     _FutureImpl._complete (bootstrap:848:5)
+#32     _FutureImpl._setValue (bootstrap:862:14)
+#33     _CompleterImpl.complete (bootstrap:949:26)
+#34     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#35     _FutureImpl._complete (bootstrap:840:19)
+#36     _FutureImpl._complete (bootstrap:848:5)
+#37     _FutureImpl._setValue (bootstrap:862:14)
+#38     _CompleterImpl.complete.complete (bootstrap:949:26)
+#39     _FutureImpl._complete (bootstrap:840:19)
+#40     _FutureImpl._complete (bootstrap:848:5)
+#41     _FutureImpl._setValue (bootstrap:862:14)
+#42     _CompleterImpl.complete (bootstrap:949:26)
+#43     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#44     _FutureImpl._complete (bootstrap:840:19)
+#45     _FutureImpl._complete (bootstrap:848:5)
+#46     _FutureImpl._setValue (bootstrap:862:14)
+#47     _CompleterImpl.complete (bootstrap:949:26)
+#48     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#49     _FutureImpl._complete (bootstrap:840:19)
+#50     _FutureImpl._complete (bootstrap:848:5)
+#51     _FutureImpl._setValue (bootstrap:862:14)
+#52     _CompleterImpl.complete.complete (bootstrap:949:26)
+#53     _FutureImpl._complete (bootstrap:840:19)
+#54     _FutureImpl._complete (bootstrap:848:5)
+#55     _FutureImpl._setValue (bootstrap:862:14)
+#56     _CompleterImpl.complete.complete (bootstrap:949:26)
+#57     _FutureImpl._complete (bootstrap:840:19)
+#58     _FutureImpl._complete (bootstrap:848:5)
+#59     _FutureImpl._setValue (bootstrap:862:14)
+#60     _CompleterImpl.complete (bootstrap:949:26)
+#61     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#62     _FutureImpl._complete (bootstrap:840:19)
+#63     _FutureImpl._complete (bootstrap:848:5)
+#64     _FutureImpl._setValue (bootstrap:862:14)
+#65     _CompleterImpl.complete.complete (bootstrap:949:26)
+#66     _FutureImpl._complete (bootstrap:840:19)
+#67     _FutureImpl._complete (bootstrap:848:5)
+#68     _FutureImpl._setValue (bootstrap:862:14)
+#69     _CompleterImpl.complete (bootstrap:949:26)
+#70     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#71     _FutureImpl._complete (bootstrap:840:19)
+#72     _FutureImpl._complete (bootstrap:848:5)
+#73     _FutureImpl._setValue (bootstrap:862:14)
+#74     _CompleterImpl.complete (bootstrap:949:26)
+#75     _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:65:27)
+#76     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [1293 ms]
+
+---
+build.dart --changed=web/main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Unhandled exception:
+FutureUnhandledException: exception while executing Future
+  FileIOException: Cannot retrieve full path for file 'web/packages' (OS Error: No such file or directory, errno = 2)
+original stack trace:
+  #0      _File.throwIfError (dart:io:1409:7)
+  #1      _File.fullPathSync (dart:io:1275:17)
+  #2      symlinkPubPackages (package:web_ui/dwc.dart:143:58)
+  #3      run.<anonymous closure>.<anonymous closure> (package:web_ui/dwc.dart:76:39)
+  #4      _FutureImpl.chain.<anonymous closure> (bootstrap:897:32)
+  
+#0      _FutureImpl._complete (bootstrap:844:11)
+#1      _FutureImpl._complete (bootstrap:848:5)
+#2      _FutureImpl._setException (bootstrap:873:14)
+#3      _CompleterImpl.completeException (bootstrap:952:30)
+#4      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#5      _FutureImpl._complete (bootstrap:832:22)
+#6      _FutureImpl._complete (bootstrap:848:5)
+#7      _FutureImpl._setException (bootstrap:873:14)
+#8      _CompleterImpl.completeException (bootstrap:952:30)
+#9      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#10     _FutureImpl._complete (bootstrap:832:22)
+#11     _FutureImpl._complete (bootstrap:848:5)
+#12     _FutureImpl._setException (bootstrap:873:14)
+#13     _CompleterImpl.completeException (bootstrap:952:30)
+#14     _FutureImpl.chain.<anonymous closure> (bootstrap:900:36)
+#15     _FutureImpl._complete (bootstrap:840:19)
+#16     _FutureImpl._complete (bootstrap:848:5)
+#17     _FutureImpl._setValue (bootstrap:862:14)
+#18     _CompleterImpl.complete (bootstrap:949:26)
+#19     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#20     _FutureImpl._complete (bootstrap:840:19)
+#21     _FutureImpl._complete (bootstrap:848:5)
+#22     _FutureImpl._setValue (bootstrap:862:14)
+#23     _CompleterImpl.complete (bootstrap:949:26)
+#24     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#25     _FutureImpl._complete (bootstrap:840:19)
+#26     _FutureImpl._complete (bootstrap:848:5)
+#27     _FutureImpl._setValue (bootstrap:862:14)
+#28     _CompleterImpl.complete (bootstrap:949:26)
+#29     FutureGroup._watchTask.<anonymous closure> (package:web_ui/src/utils.dart:146:28)
+#30     _FutureImpl._complete (bootstrap:840:19)
+#31     _FutureImpl._complete (bootstrap:848:5)
+#32     _FutureImpl._setValue (bootstrap:862:14)
+#33     _CompleterImpl.complete (bootstrap:949:26)
+#34     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#35     _FutureImpl._complete (bootstrap:840:19)
+#36     _FutureImpl._complete (bootstrap:848:5)
+#37     _FutureImpl._setValue (bootstrap:862:14)
+#38     _CompleterImpl.complete.complete (bootstrap:949:26)
+#39     _FutureImpl._complete (bootstrap:840:19)
+#40     _FutureImpl._complete (bootstrap:848:5)
+#41     _FutureImpl._setValue (bootstrap:862:14)
+#42     _CompleterImpl.complete (bootstrap:949:26)
+#43     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#44     _FutureImpl._complete (bootstrap:840:19)
+#45     _FutureImpl._complete (bootstrap:848:5)
+#46     _FutureImpl._setValue (bootstrap:862:14)
+#47     _CompleterImpl.complete (bootstrap:949:26)
+#48     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#49     _FutureImpl._complete (bootstrap:840:19)
+#50     _FutureImpl._complete (bootstrap:848:5)
+#51     _FutureImpl._setValue (bootstrap:862:14)
+#52     _CompleterImpl.complete.complete (bootstrap:949:26)
+#53     _FutureImpl._complete (bootstrap:840:19)
+#54     _FutureImpl._complete (bootstrap:848:5)
+#55     _FutureImpl._setValue (bootstrap:862:14)
+#56     _CompleterImpl.complete.complete (bootstrap:949:26)
+#57     _FutureImpl._complete (bootstrap:840:19)
+#58     _FutureImpl._complete (bootstrap:848:5)
+#59     _FutureImpl._setValue (bootstrap:862:14)
+#60     _CompleterImpl.complete (bootstrap:949:26)
+#61     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#62     _FutureImpl._complete (bootstrap:840:19)
+#63     _FutureImpl._complete (bootstrap:848:5)
+#64     _FutureImpl._setValue (bootstrap:862:14)
+#65     _CompleterImpl.complete.complete (bootstrap:949:26)
+#66     _FutureImpl._complete (bootstrap:840:19)
+#67     _FutureImpl._complete (bootstrap:848:5)
+#68     _FutureImpl._setValue (bootstrap:862:14)
+#69     _CompleterImpl.complete (bootstrap:949:26)
+#70     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#71     _FutureImpl._complete (bootstrap:840:19)
+#72     _FutureImpl._complete (bootstrap:848:5)
+#73     _FutureImpl._setValue (bootstrap:862:14)
+#74     _CompleterImpl.complete (bootstrap:949:26)
+#75     _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:65:27)
+#76     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [1157 ms]
+
+---
+build.dart --changed=lib/src/view/EventsManager.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Unhandled exception:
+FutureUnhandledException: exception while executing Future
+  FileIOException: Cannot retrieve full path for file 'web/packages' (OS Error: No such file or directory, errno = 2)
+original stack trace:
+  #0      _File.throwIfError (dart:io:1409:7)
+  #1      _File.fullPathSync (dart:io:1275:17)
+  #2      symlinkPubPackages (package:web_ui/dwc.dart:143:58)
+  #3      run.<anonymous closure>.<anonymous closure> (package:web_ui/dwc.dart:76:39)
+  #4      _FutureImpl.chain.<anonymous closure> (bootstrap:897:32)
+  
+#0      _FutureImpl._complete (bootstrap:844:11)
+#1      _FutureImpl._complete (bootstrap:848:5)
+#2      _FutureImpl._setException (bootstrap:873:14)
+#3      _CompleterImpl.completeException (bootstrap:952:30)
+#4      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#5      _FutureImpl._complete (bootstrap:832:22)
+#6      _FutureImpl._complete (bootstrap:848:5)
+#7      _FutureImpl._setException (bootstrap:873:14)
+#8      _CompleterImpl.completeException (bootstrap:952:30)
+#9      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#10     _FutureImpl._complete (bootstrap:832:22)
+#11     _FutureImpl._complete (bootstrap:848:5)
+#12     _FutureImpl._setException (bootstrap:873:14)
+#13     _CompleterImpl.completeException (bootstrap:952:30)
+#14     _FutureImpl.chain.<anonymous closure> (bootstrap:900:36)
+#15     _FutureImpl._complete (bootstrap:840:19)
+#16     _FutureImpl._complete (bootstrap:848:5)
+#17     _FutureImpl._setValue (bootstrap:862:14)
+#18     _CompleterImpl.complete (bootstrap:949:26)
+#19     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#20     _FutureImpl._complete (bootstrap:840:19)
+#21     _FutureImpl._complete (bootstrap:848:5)
+#22     _FutureImpl._setValue (bootstrap:862:14)
+#23     _CompleterImpl.complete (bootstrap:949:26)
+#24     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#25     _FutureImpl._complete (bootstrap:840:19)
+#26     _FutureImpl._complete (bootstrap:848:5)
+#27     _FutureImpl._setValue (bootstrap:862:14)
+#28     _CompleterImpl.complete (bootstrap:949:26)
+#29     FutureGroup._watchTask.<anonymous closure> (package:web_ui/src/utils.dart:146:28)
+#30     _FutureImpl._complete (bootstrap:840:19)
+#31     _FutureImpl._complete (bootstrap:848:5)
+#32     _FutureImpl._setValue (bootstrap:862:14)
+#33     _CompleterImpl.complete (bootstrap:949:26)
+#34     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#35     _FutureImpl._complete (bootstrap:840:19)
+#36     _FutureImpl._complete (bootstrap:848:5)
+#37     _FutureImpl._setValue (bootstrap:862:14)
+#38     _CompleterImpl.complete.complete (bootstrap:949:26)
+#39     _FutureImpl._complete (bootstrap:840:19)
+#40     _FutureImpl._complete (bootstrap:848:5)
+#41     _FutureImpl._setValue (bootstrap:862:14)
+#42     _CompleterImpl.complete (bootstrap:949:26)
+#43     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#44     _FutureImpl._complete (bootstrap:840:19)
+#45     _FutureImpl._complete (bootstrap:848:5)
+#46     _FutureImpl._setValue (bootstrap:862:14)
+#47     _CompleterImpl.complete (bootstrap:949:26)
+#48     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#49     _FutureImpl._complete (bootstrap:840:19)
+#50     _FutureImpl._complete (bootstrap:848:5)
+#51     _FutureImpl._setValue (bootstrap:862:14)
+#52     _CompleterImpl.complete.complete (bootstrap:949:26)
+#53     _FutureImpl._complete (bootstrap:840:19)
+#54     _FutureImpl._complete (bootstrap:848:5)
+#55     _FutureImpl._setValue (bootstrap:862:14)
+#56     _CompleterImpl.complete.complete (bootstrap:949:26)
+#57     _FutureImpl._complete (bootstrap:840:19)
+#58     _FutureImpl._complete (bootstrap:848:5)
+#59     _FutureImpl._setValue (bootstrap:862:14)
+#60     _CompleterImpl.complete (bootstrap:949:26)
+#61     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#62     _FutureImpl._complete (bootstrap:840:19)
+#63     _FutureImpl._complete (bootstrap:848:5)
+#64     _FutureImpl._setValue (bootstrap:862:14)
+#65     _CompleterImpl.complete.complete (bootstrap:949:26)
+#66     _FutureImpl._complete (bootstrap:840:19)
+#67     _FutureImpl._complete (bootstrap:848:5)
+#68     _FutureImpl._setValue (bootstrap:862:14)
+#69     _CompleterImpl.complete (bootstrap:949:26)
+#70     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#71     _FutureImpl._complete (bootstrap:840:19)
+#72     _FutureImpl._complete (bootstrap:848:5)
+#73     _FutureImpl._setValue (bootstrap:862:14)
+#74     _CompleterImpl.complete (bootstrap:949:26)
+#75     _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:65:27)
+#76     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [1182 ms]
+
+---
+build.dart --changed=lib/src/view/EventsManager.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Unhandled exception:
+FutureUnhandledException: exception while executing Future
+  FileIOException: Cannot retrieve full path for file 'web/packages' (OS Error: No such file or directory, errno = 2)
+original stack trace:
+  #0      _File.throwIfError (dart:io:1409:7)
+  #1      _File.fullPathSync (dart:io:1275:17)
+  #2      symlinkPubPackages (package:web_ui/dwc.dart:143:58)
+  #3      run.<anonymous closure>.<anonymous closure> (package:web_ui/dwc.dart:76:39)
+  #4      _FutureImpl.chain.<anonymous closure> (bootstrap:897:32)
+  
+#0      _FutureImpl._complete (bootstrap:844:11)
+#1      _FutureImpl._complete (bootstrap:848:5)
+#2      _FutureImpl._setException (bootstrap:873:14)
+#3      _CompleterImpl.completeException (bootstrap:952:30)
+#4      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#5      _FutureImpl._complete (bootstrap:832:22)
+#6      _FutureImpl._complete (bootstrap:848:5)
+#7      _FutureImpl._setException (bootstrap:873:14)
+#8      _CompleterImpl.completeException (bootstrap:952:30)
+#9      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#10     _FutureImpl._complete (bootstrap:832:22)
+#11     _FutureImpl._complete (bootstrap:848:5)
+#12     _FutureImpl._setException (bootstrap:873:14)
+#13     _CompleterImpl.completeException (bootstrap:952:30)
+#14     _FutureImpl.chain.<anonymous closure> (bootstrap:900:36)
+#15     _FutureImpl._complete (bootstrap:840:19)
+#16     _FutureImpl._complete (bootstrap:848:5)
+#17     _FutureImpl._setValue (bootstrap:862:14)
+#18     _CompleterImpl.complete (bootstrap:949:26)
+#19     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#20     _FutureImpl._complete (bootstrap:840:19)
+#21     _FutureImpl._complete (bootstrap:848:5)
+#22     _FutureImpl._setValue (bootstrap:862:14)
+#23     _CompleterImpl.complete (bootstrap:949:26)
+#24     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#25     _FutureImpl._complete (bootstrap:840:19)
+#26     _FutureImpl._complete (bootstrap:848:5)
+#27     _FutureImpl._setValue (bootstrap:862:14)
+#28     _CompleterImpl.complete (bootstrap:949:26)
+#29     FutureGroup._watchTask.<anonymous closure> (package:web_ui/src/utils.dart:146:28)
+#30     _FutureImpl._complete (bootstrap:840:19)
+#31     _FutureImpl._complete (bootstrap:848:5)
+#32     _FutureImpl._setValue (bootstrap:862:14)
+#33     _CompleterImpl.complete (bootstrap:949:26)
+#34     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#35     _FutureImpl._complete (bootstrap:840:19)
+#36     _FutureImpl._complete (bootstrap:848:5)
+#37     _FutureImpl._setValue (bootstrap:862:14)
+#38     _CompleterImpl.complete.complete (bootstrap:949:26)
+#39     _FutureImpl._complete (bootstrap:840:19)
+#40     _FutureImpl._complete (bootstrap:848:5)
+#41     _FutureImpl._setValue (bootstrap:862:14)
+#42     _CompleterImpl.complete (bootstrap:949:26)
+#43     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#44     _FutureImpl._complete (bootstrap:840:19)
+#45     _FutureImpl._complete (bootstrap:848:5)
+#46     _FutureImpl._setValue (bootstrap:862:14)
+#47     _CompleterImpl.complete (bootstrap:949:26)
+#48     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#49     _FutureImpl._complete (bootstrap:840:19)
+#50     _FutureImpl._complete (bootstrap:848:5)
+#51     _FutureImpl._setValue (bootstrap:862:14)
+#52     _CompleterImpl.complete.complete (bootstrap:949:26)
+#53     _FutureImpl._complete (bootstrap:840:19)
+#54     _FutureImpl._complete (bootstrap:848:5)
+#55     _FutureImpl._setValue (bootstrap:862:14)
+#56     _CompleterImpl.complete.complete (bootstrap:949:26)
+#57     _FutureImpl._complete (bootstrap:840:19)
+#58     _FutureImpl._complete (bootstrap:848:5)
+#59     _FutureImpl._setValue (bootstrap:862:14)
+#60     _CompleterImpl.complete (bootstrap:949:26)
+#61     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#62     _FutureImpl._complete (bootstrap:840:19)
+#63     _FutureImpl._complete (bootstrap:848:5)
+#64     _FutureImpl._setValue (bootstrap:862:14)
+#65     _CompleterImpl.complete.complete (bootstrap:949:26)
+#66     _FutureImpl._complete (bootstrap:840:19)
+#67     _FutureImpl._complete (bootstrap:848:5)
+#68     _FutureImpl._setValue (bootstrap:862:14)
+#69     _CompleterImpl.complete (bootstrap:949:26)
+#70     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#71     _FutureImpl._complete (bootstrap:840:19)
+#72     _FutureImpl._complete (bootstrap:848:5)
+#73     _FutureImpl._setValue (bootstrap:862:14)
+#74     _CompleterImpl.complete (bootstrap:949:26)
+#75     _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:65:27)
+#76     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [1267 ms]
+
+---
+build.dart --changed=lib/src/view/EventsManager.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Unhandled exception:
+FutureUnhandledException: exception while executing Future
+  FileIOException: Cannot retrieve full path for file 'web/packages' (OS Error: No such file or directory, errno = 2)
+original stack trace:
+  #0      _File.throwIfError (dart:io:1409:7)
+  #1      _File.fullPathSync (dart:io:1275:17)
+  #2      symlinkPubPackages (package:web_ui/dwc.dart:143:58)
+  #3      run.<anonymous closure>.<anonymous closure> (package:web_ui/dwc.dart:76:39)
+  #4      _FutureImpl.chain.<anonymous closure> (bootstrap:897:32)
+  
+#0      _FutureImpl._complete (bootstrap:844:11)
+#1      _FutureImpl._complete (bootstrap:848:5)
+#2      _FutureImpl._setException (bootstrap:873:14)
+#3      _CompleterImpl.completeException (bootstrap:952:30)
+#4      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#5      _FutureImpl._complete (bootstrap:832:22)
+#6      _FutureImpl._complete (bootstrap:848:5)
+#7      _FutureImpl._setException (bootstrap:873:14)
+#8      _CompleterImpl.completeException (bootstrap:952:30)
+#9      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#10     _FutureImpl._complete (bootstrap:832:22)
+#11     _FutureImpl._complete (bootstrap:848:5)
+#12     _FutureImpl._setException (bootstrap:873:14)
+#13     _CompleterImpl.completeException (bootstrap:952:30)
+#14     _FutureImpl.chain.<anonymous closure> (bootstrap:900:36)
+#15     _FutureImpl._complete (bootstrap:840:19)
+#16     _FutureImpl._complete (bootstrap:848:5)
+#17     _FutureImpl._setValue (bootstrap:862:14)
+#18     _CompleterImpl.complete (bootstrap:949:26)
+#19     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#20     _FutureImpl._complete (bootstrap:840:19)
+#21     _FutureImpl._complete (bootstrap:848:5)
+#22     _FutureImpl._setValue (bootstrap:862:14)
+#23     _CompleterImpl.complete (bootstrap:949:26)
+#24     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#25     _FutureImpl._complete (bootstrap:840:19)
+#26     _FutureImpl._complete (bootstrap:848:5)
+#27     _FutureImpl._setValue (bootstrap:862:14)
+#28     _CompleterImpl.complete (bootstrap:949:26)
+#29     FutureGroup._watchTask.<anonymous closure> (package:web_ui/src/utils.dart:146:28)
+#30     _FutureImpl._complete (bootstrap:840:19)
+#31     _FutureImpl._complete (bootstrap:848:5)
+#32     _FutureImpl._setValue (bootstrap:862:14)
+#33     _CompleterImpl.complete (bootstrap:949:26)
+#34     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#35     _FutureImpl._complete (bootstrap:840:19)
+#36     _FutureImpl._complete (bootstrap:848:5)
+#37     _FutureImpl._setValue (bootstrap:862:14)
+#38     _CompleterImpl.complete.complete (bootstrap:949:26)
+#39     _FutureImpl._complete (bootstrap:840:19)
+#40     _FutureImpl._complete (bootstrap:848:5)
+#41     _FutureImpl._setValue (bootstrap:862:14)
+#42     _CompleterImpl.complete (bootstrap:949:26)
+#43     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#44     _FutureImpl._complete (bootstrap:840:19)
+#45     _FutureImpl._complete (bootstrap:848:5)
+#46     _FutureImpl._setValue (bootstrap:862:14)
+#47     _CompleterImpl.complete (bootstrap:949:26)
+#48     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#49     _FutureImpl._complete (bootstrap:840:19)
+#50     _FutureImpl._complete (bootstrap:848:5)
+#51     _FutureImpl._setValue (bootstrap:862:14)
+#52     _CompleterImpl.complete.complete (bootstrap:949:26)
+#53     _FutureImpl._complete (bootstrap:840:19)
+#54     _FutureImpl._complete (bootstrap:848:5)
+#55     _FutureImpl._setValue (bootstrap:862:14)
+#56     _CompleterImpl.complete.complete (bootstrap:949:26)
+#57     _FutureImpl._complete (bootstrap:840:19)
+#58     _FutureImpl._complete (bootstrap:848:5)
+#59     _FutureImpl._setValue (bootstrap:862:14)
+#60     _CompleterImpl.complete (bootstrap:949:26)
+#61     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#62     _FutureImpl._complete (bootstrap:840:19)
+#63     _FutureImpl._complete (bootstrap:848:5)
+#64     _FutureImpl._setValue (bootstrap:862:14)
+#65     _CompleterImpl.complete.complete (bootstrap:949:26)
+#66     _FutureImpl._complete (bootstrap:840:19)
+#67     _FutureImpl._complete (bootstrap:848:5)
+#68     _FutureImpl._setValue (bootstrap:862:14)
+#69     _CompleterImpl.complete (bootstrap:949:26)
+#70     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#71     _FutureImpl._complete (bootstrap:840:19)
+#72     _FutureImpl._complete (bootstrap:848:5)
+#73     _FutureImpl._setValue (bootstrap:862:14)
+#74     _CompleterImpl.complete (bootstrap:949:26)
+#75     _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:65:27)
+#76     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [1194 ms]
+
+---
+build.dart --changed=pubspec.yaml
+
+build.dart finished [258 ms]
+
+---
+build.dart --changed=pubspec.yaml
+
+build.dart finished [236 ms]
+
+---
+build.dart --changed=lib/src/view/EventsManager.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m212 ms[0m
+build.dart finished [473 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [277 ms]
+
+---
+build.dart --changed=lib/eventbus.dart --changed=lib/src/model/AndroidFile.dart --changed=lib/src/model/busines...
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m228 ms[0m
+build.dart finished [468 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [231 ms]
+
+---
+build.dart --changed=web/main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m211 ms[0m
+build.dart finished [502 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [227 ms]
+
+---
+build.dart --changed=pubspec.yaml
+
+build.dart finished [229 ms]
+
+---
+build.dart --changed=lib/src/view/EventsManager.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m202 ms[0m
+build.dart finished [471 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [317 ms]
+
+---
+build.dart --changed=lib/src/view/EventsManager.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m236 ms[0m
+build.dart finished [463 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [215 ms]
+
+---
+build.dart --changed=web/main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m202 ms[0m
+build.dart finished [425 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [275 ms]
+
+---
+build.dart --changed=lib/Model.dart --removed=lib/src/model/Model.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m202 ms[0m
+build.dart finished [447 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [208 ms]
+
+---
+build.dart --changed=lib/model.dart --removed=lib/Model.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m203 ms[0m
+build.dart finished [437 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [242 ms]
+
+---
+build.dart --changed=lib/model.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m200 ms[0m
+build.dart finished [480 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [227 ms]
+
+---
+build.dart --changed=lib/model.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m205 ms[0m
+build.dart finished [468 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [300 ms]
+
+---
+build.dart --changed=web/main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m205 ms[0m
+build.dart finished [450 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [323 ms]
+
+---
+build.dart --changed=lib/eventbus.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m203 ms[0m
+build.dart finished [509 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [225 ms]
+
+---
+build.dart --changed=web/main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m201 ms[0m
+build.dart finished [508 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [210 ms]
+
+---
+build.dart --changed=lib/eventbus.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m201 ms[0m
+build.dart finished [427 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [206 ms]
+

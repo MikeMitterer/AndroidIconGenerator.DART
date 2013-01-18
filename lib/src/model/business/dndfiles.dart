@@ -42,18 +42,17 @@ class DndFiles {
     _readForm.reset();
 
     //_onFilesSelected(event.dataTransfer.files);
-    
+
     print("onDrop...");
-    
-    //ToDo: Funkt nicht in FF und Safari
-    for(int counter = 0; counter < event.dataTransfer.items.length; counter++) {
+
+    for(int counter = 0;window.navigator.vendor == "Google Inc." && counter < event.dataTransfer.items.length; counter++) {
       DataTransferItem item = event.dataTransfer.items.item(counter);
-      
+
       print("Content-type: ${item.type}");
       if(item.type == "text/html") {
         print("Content: ${event.dataTransfer.getData(item.type)}");
-        
-        //RegExp regexp = new RegExp("<img.+?src=[\"'](.+?)[\"'].+?>", ignoreCase: true);    
+
+        //RegExp regexp = new RegExp("<img.+?src=[\"'](.+?)[\"'].+?>", ignoreCase: true);
         //RegExp regexp = new RegExp("<img.*?src=[\"'](.+?)[\"'].*?>", ignoreCase: true);
         RegExp regexp = new RegExp("<img.*?src=[\"'](.+?(\.png|\.jpg|\.gif))[\"'].*?>", ignoreCase: true);
         //RegExp regexp = new RegExp("<img.+?src=[\"'](.+\.gif)[\"'].+?>", ignoreCase: true);
@@ -65,7 +64,7 @@ class DndFiles {
         }
       }
     }
-    
+
     _addSelectedFilesToModel(event.dataTransfer.files);
   }
 
@@ -87,7 +86,7 @@ class DndFiles {
     convertedfiles.files.add(new AndroidFile.fromUri(uri));
     watcher.dispatch();
   }
-  
+
   void _onFilesSelected(List<File> files) {
     //_output.nodes.clear();
     Element list = new Element.tag('ul');

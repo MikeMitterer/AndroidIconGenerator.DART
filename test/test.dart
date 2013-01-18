@@ -13,6 +13,6 @@ part 'src/simple.dart';
 //
 main() {
   useHtmlEnhancedConfiguration();
-  
+
   testSimple();
 }

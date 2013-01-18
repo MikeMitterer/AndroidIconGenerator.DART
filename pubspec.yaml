@@ -1,7 +1,10 @@
-name:  AndroidIconGeneratorDART
-description:  A sample application
+name:         androidicongenerator
+#author: "Dart Team <misc@dartlang.org>"
+#homepage: https://github.com/dart-lang/html5lib
+description:  Generates Icons for Android-Devices
+version:      0.1.0
 
 dependencies:
-  #web_ui: "0.2.9"
-  web_ui: any
+  web_ui: "0.2.11"
   unittest: any
+  browser: any 

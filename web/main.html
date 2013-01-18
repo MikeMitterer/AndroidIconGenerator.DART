@@ -4,31 +4,55 @@
   <head>
     <meta charset="utf-8">
     <title>AndroidIconGenerator</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/application.css">
   </head>
   <body>
-    <h1>AndroidIconGenerator</h1>
-    
-    <h3>Using Form Input, Drag and Drop, and Reading Files.</h3>
-    <div id="drop-zone">
-      Drop files here...
-    </div>
-    <form id="read">
-      <input type="file" id="file" name="files[]" multiple />
-    </form>
-    <ul id="filelist" class="clearfix">
-      <template iterate='file in convertedfiles.files'>
-        <li><span class="filename">{{file.filename}}</span>
-        <template if='file.isImage'>
-          <div class="image">
-            <img src="{{file.safeuri}}" alt="{{file.filename}}">
+    <div class="container">
+    <div class="row-fluid">
+      <h1>AndroidIconGenerator.</h1>
+      
+      <h3>Using Form Input, Drag and Drop, and Reading Files.</h3>
+      <form id="settings" class="form-horizontal span4">
+        <div class="control-group">
+          <label class="control-label" for="foregroundColor">Color:</label>
+          <div class="controls">
+            <input type="text" id="foregroundColor" class="input-small" placeholder="#666666">
           </div>
-         </template>
-        </li>
-      </template>
-    </ul>
+        </div>      
 
+        <div class="control-group">
+          <label class="control-label" for="backgroundColor">Background:</label>
+          <div class="controls">
+            <input type="text" id="backgroundColor" class="input-small" placeholder="#000000">
+          </div>
+        </div>
+              
+      </form>
+      <div class="span7">
+        <div id="drop-zone">
+          Drop files here...
+        </div>
+        <form id="read">
+          <input type="file" id="file" name="files[]" multiple />
+        </form>
+      </div>
+    </div>
+    <div id="preview" class="clearfix">
+      <ul id="filelist">
+        <template iterate='file in convertedfiles.files'>
+          <li><span class="filename">{{file.filename}}</span>
+          <template if='file.isImage'>
+            <div class="image">
+              <img src="{{file.safeuri}}" alt="{{file.filename}}">
+            </div>
+           </template>
+          </li>
+        </template>
+      </ul>
+    </div>
+    </div>
     <script type="application/dart" src="main.dart"></script>
-    <script src="https://dart.googlecode.com/svn/branches/bleeding_edge/dart/client/dart.js"></script>
+    <script src="packages/browser/dart.js"></script>
   </body>
 </html>

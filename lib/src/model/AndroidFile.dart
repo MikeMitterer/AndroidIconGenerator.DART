@@ -28,14 +28,14 @@ class AndroidFile {
       reader.readAsDataUrl(_file);
     }
   }
-  
+
   AndroidFile.fromUri(Uri uri) :
     isImage = true {
-    
+
     RegExp regex = new RegExp(".*/((.+)\.(.+))");
     Match match = regex.firstMatch(uri.path);
     filename = match.group(1);
-    
+
     safeuri = new SafeUri.unsafe(templating.sanitizeUri(uri));
   }
 }
