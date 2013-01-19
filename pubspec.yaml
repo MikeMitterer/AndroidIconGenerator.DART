@@ -1,5 +1,5 @@
 name:         androidicongenerator
-#author: "Dart Team <misc@dartlang.org>"
+author:       "Mike Mitterer <office@mikemitterer.at>"
 #homepage: https://github.com/dart-lang/html5lib
 description:  Generates Icons for Android-Devices
 version:      0.1.0
@@ -8,3 +8,4 @@ dependencies:
   web_ui: "0.2.11"
   unittest: any
   browser: any 
+  color_picker: ">=1.0.0 <2.0.0"

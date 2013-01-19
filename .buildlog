@@ -1516,3 +1516,904 @@ build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web
 
 build.dart finished [206 ms]
 
+---
+build.dart --changed=pubspec.yaml
+
+build.dart finished [300 ms]
+
+---
+build.dart --changed=pubspec.yaml
+
+build.dart finished [246 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m220 ms[0m
+build.dart finished [1785 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [211 ms]
+
+---
+build.dart --changed=test/test.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m201 ms[0m
+build.dart finished [852 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [247 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m200 ms[0m
+build.dart finished [747 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [254 ms]
+
+---
+build.dart --changed=test/run.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m200 ms[0m
+build.dart finished [554 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [223 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m200 ms[0m
+build.dart finished [409 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [263 ms]
+
+---
+build.dart --changed=test/test.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m204 ms[0m
+build.dart finished [430 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [220 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m197 ms[0m
+build.dart finished [401 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [224 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m200 ms[0m
+build.dart finished [420 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [235 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m202 ms[0m
+build.dart finished [406 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [229 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m203 ms[0m
+build.dart finished [409 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [263 ms]
+
+---
+build.dart --changed=test/test.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m207 ms[0m
+build.dart finished [427 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [242 ms]
+
+---
+build.dart --changed=test/test.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m210 ms[0m
+build.dart finished [447 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [246 ms]
+
+---
+build.dart --changed=test/test.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m206 ms[0m
+build.dart finished [441 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [255 ms]
+
+---
+build.dart --changed=test/test.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m215 ms[0m
+build.dart finished [620 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [238 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m246 ms[0m
+build.dart finished [2229 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [236 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m204 ms[0m
+build.dart finished [566 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [246 ms]
+
+---
+build.dart --changed=test/test.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m214 ms[0m
+build.dart finished [452 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [239 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m202 ms[0m
+build.dart finished [441 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [368 ms]
+
+---
+build.dart --changed=test/test.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m242 ms[0m
+build.dart finished [1185 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [200 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m200 ms[0m
+build.dart finished [413 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [234 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m231 ms[0m
+build.dart finished [813 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [203 ms]
+
+---
+build.dart --changed=test/test.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m200 ms[0m
+build.dart finished [537 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [401 ms]
+
+---
+build.dart --changed=lib/src/Communication.dart --changed=test/src/restserver.dart --removed=lib/src/model/comm...
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m262 ms[0m
+build.dart finished [1548 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [225 ms]
+
+---
+build.dart --changed=lib/Communication.dart --removed=lib/src/Communication.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m207 ms[0m
+build.dart finished [443 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [355 ms]
+
+---
+build.dart --changed=lib/communication.dart --removed=lib/Communication.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m204 ms[0m
+build.dart finished [539 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [241 ms]
+
+---
+build.dart --changed=test/test.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m220 ms[0m
+build.dart finished [1050 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [205 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m228 ms[0m
+build.dart finished [793 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [209 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m199 ms[0m
+build.dart finished [412 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [214 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m197 ms[0m
+build.dart finished [586 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [252 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m205 ms[0m
+build.dart finished [669 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [243 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m225 ms[0m
+build.dart finished [1260 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [233 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m203 ms[0m
+build.dart finished [686 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [232 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m210 ms[0m
+build.dart finished [546 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [228 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m204 ms[0m
+build.dart finished [416 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [348 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m254 ms[0m
+build.dart finished [822 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [216 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m213 ms[0m
+build.dart finished [601 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [224 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m216 ms[0m
+build.dart finished [703 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [253 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m255 ms[0m
+build.dart finished [959 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [260 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m246 ms[0m
+build.dart finished [812 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [238 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m228 ms[0m
+build.dart finished [661 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [227 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m202 ms[0m
+build.dart finished [432 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [235 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m200 ms[0m
+build.dart finished [413 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [230 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m198 ms[0m
+build.dart finished [405 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [226 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m201 ms[0m
+build.dart finished [556 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [231 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m210 ms[0m
+build.dart finished [422 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [239 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m209 ms[0m
+build.dart finished [443 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [208 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m204 ms[0m
+build.dart finished [419 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [240 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m200 ms[0m
+build.dart finished [411 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [250 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m198 ms[0m
+build.dart finished [424 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [240 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m202 ms[0m
+build.dart finished [412 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [233 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m202 ms[0m
+build.dart finished [415 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [245 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m198 ms[0m
+build.dart finished [404 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [267 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m198 ms[0m
+build.dart finished [410 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [231 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m203 ms[0m
+build.dart finished [419 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [238 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m203 ms[0m
+build.dart finished [414 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [236 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m201 ms[0m
+build.dart finished [418 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [267 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m198 ms[0m
+build.dart finished [406 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [242 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m203 ms[0m
+build.dart finished [440 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [254 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m236 ms[0m
+build.dart finished [761 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [238 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m205 ms[0m
+build.dart finished [533 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [246 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m201 ms[0m
+build.dart finished [414 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [257 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m201 ms[0m
+build.dart finished [428 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [249 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m233 ms[0m
+build.dart finished [869 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [256 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m208 ms[0m
+build.dart finished [429 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [321 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m210 ms[0m
+build.dart finished [451 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [357 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m204 ms[0m
+build.dart finished [440 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [386 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m203 ms[0m
+build.dart finished [422 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [251 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m201 ms[0m
+build.dart finished [419 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [230 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m203 ms[0m
+build.dart finished [437 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [359 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m201 ms[0m
+build.dart finished [445 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [225 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m205 ms[0m
+build.dart finished [449 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [350 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m207 ms[0m
+build.dart finished [424 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [353 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m238 ms[0m
+build.dart finished [811 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [235 ms]
+
+---
+build.dart --changed=test/test.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m201 ms[0m
+build.dart finished [710 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [245 ms]
+
+---
+build.dart --changed=test/test.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m211 ms[0m
+build.dart finished [452 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [273 ms]
+
+---
+build.dart --changed=test/test.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m202 ms[0m
+build.dart finished [437 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [228 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m249 ms[0m
+build.dart finished [803 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [209 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m200 ms[0m
+build.dart finished [426 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [230 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m202 ms[0m
+build.dart finished [407 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [234 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m219 ms[0m
+build.dart finished [598 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [256 ms]
+
+---
+build.dart --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- [32m201 ms[0m
+build.dart finished [554 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [226 ms]
+
