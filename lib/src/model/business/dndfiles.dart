@@ -54,7 +54,7 @@ class DndFiles {
 
         //RegExp regexp = new RegExp("<img.+?src=[\"'](.+?)[\"'].+?>", ignoreCase: true);
         //RegExp regexp = new RegExp("<img.*?src=[\"'](.+?)[\"'].*?>", ignoreCase: true);
-        RegExp regexp = new RegExp("<img.*?src=[\"'](.+?(\.png|\.jpg|\.gif))[\"'].*?>", ignoreCase: true);
+        RegExp regexp = new RegExp("<img.*?src=[\"'](.+?(\.png|\.jpg|\.gif))[\"'].*?>");
         //RegExp regexp = new RegExp("<img.+?src=[\"'](.+\.gif)[\"'].+?>", ignoreCase: true);
         Match match = regexp.firstMatch(event.dataTransfer.getData(item.type));
         if(match != null && match.groupCount == 2) {
@@ -113,12 +113,13 @@ class DndFiles {
         item.nodes.add(thumbHolder);
       }
 
-      final StringBuffer buffer = new StringBuffer('<strong>');
-          buffer.add(file.name).add('</strong> (')
-          .add(file.type != null ? htmlEscape(file.type) : 'n/a')
-          .add(') ')
-          .add(file.size)
-          .add(' bytes');
+      final StringBuffer buffer = new StringBuffer('<strong>')
+          ..add(file.name)
+          ..add('</strong> (')
+          ..add(file.type != null ? htmlEscape(file.type) : 'n/a')
+          ..add(') ')
+          ..add(file.size)
+          ..add(' bytes');
 
           // TODO(jason9t): Re-enable this when issue 5070 is resolved.
           // http://code.google.com/p/dart/issues/detail?id=5070

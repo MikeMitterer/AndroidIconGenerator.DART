@@ -2417,3 +2417,135 @@ build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web
 
 build.dart finished [226 ms]
 
+---
+build.dart 
+'package:html5lib/src/encoding_parser.dart': Error: line 65 pos 14: class 'EncodingBytes' overrides function 'skip' of super class 'Iterable' with incompatible parameters
+  String skip([CharPreciate skipChars]) {
+             ^
+build.dart finished [199 ms]
+
+---
+build.dart --removed=web/out/main.dart --removed=web/out/main.html --removed=web/out/main.html_bootstrap.dart
+'package:html5lib/src/encoding_parser.dart': Error: line 65 pos 14: class 'EncodingBytes' overrides function 'skip' of super class 'Iterable' with incompatible parameters
+  String skip([CharPreciate skipChars]) {
+             ^
+build.dart finished [199 ms]
+
+---
+build.dart --changed=pubspec.yaml
+'package:html5lib/src/encoding_parser.dart': Error: line 65 pos 14: class 'EncodingBytes' overrides function 'skip' of super class 'Iterable' with incompatible parameters
+  String skip([CharPreciate skipChars]) {
+             ^
+build.dart finished [255 ms]
+
+---
+build.dart 
+'package:html5lib/src/encoding_parser.dart': Error: line 65 pos 14: class 'EncodingBytes' overrides function 'skip' of super class 'Iterable' with incompatible parameters
+  String skip([CharPreciate skipChars]) {
+             ^
+build.dart finished [188 ms]
+
+---
+build.dart --changed=pubspec.lock
+'package:html5lib/src/encoding_parser.dart': Error: line 65 pos 14: class 'EncodingBytes' overrides function 'skip' of super class 'Iterable' with incompatible parameters
+  String skip([CharPreciate skipChars]) {
+             ^
+build.dart finished [188 ms]
+
+---
+build.dart --changed=pubspec.yaml
+'package:html5lib/src/encoding_parser.dart': Error: line 65 pos 14: class 'EncodingBytes' overrides function 'skip' of super class 'Iterable' with incompatible parameters
+  String skip([CharPreciate skipChars]) {
+             ^
+build.dart finished [171 ms]
+
+---
+build.dart --changed=pubspec.lock
+
+build.dart finished [227 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [223 ms]
+
+---
+build.dart --changed=lib/src/model/business/dndfiles.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 158 ms
+build.dart finished [377 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [222 ms]
+
+---
+build.dart --changed=lib/src/model/business/dndfiles.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 159 ms
+build.dart finished [366 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [221 ms]
+
+---
+build.dart --changed=lib/src/model/business/dndfiles.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 159 ms
+build.dart finished [364 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [215 ms]
+
+---
+build.dart --changed=lib/src/model/business/dndfiles.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 159 ms
+build.dart finished [470 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [239 ms]
+
+---
+build.dart --changed=test/src/simple.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 163 ms
+build.dart finished [510 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [232 ms]
+
+---
+build.dart --changed=test/src/simple.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 160 ms
+build.dart finished [403 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [271 ms]
+
+---
+build.dart --changed=packages.off/androidicongenerator/communication.dart --changed=packages.off/androidicongen...
+Unable to open file: /Users/mikemitterer/dart/AndroidIconGenerator/packages/web_ui/component_build.dart'file:///Users/mikemitterer/dart/AndroidIconGenerator/build.dart': Error: line 8 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [397 ms]
+
+---
+build.dart --changed=web/out.off/main.dart --changed=web/out.off/main.html --changed=web/out.off/main.html_boot...
+Unable to open file: /Users/mikemitterer/dart/AndroidIconGenerator/packages/web_ui/component_build.dart'file:///Users/mikemitterer/dart/AndroidIconGenerator/build.dart': Error: line 8 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [139 ms]
+
