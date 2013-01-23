@@ -2549,3 +2549,19 @@ import 'package:web_ui/component_build.dart';
 ^
 build.dart finished [139 ms]
 
+---
+build.dart --removed=packages.off/androidicongenerator/communication.dart --removed=packages.off/androidicongen...
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 309 ms
+build.dart finished [842 ms]
+
+---
+build.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [241 ms]
+
+---
+build.dart --changed=web/out/out.off/main.dart --changed=web/out/out.off/main.html --changed=web/out/out.off/ma...
+
+build.dart finished [561 ms]
+
