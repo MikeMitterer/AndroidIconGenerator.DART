@@ -2,6 +2,7 @@ library communication;
 
 import 'dart:html';
 import 'dart:json';
+import 'dart:uri';
 
 part 'src/model/communication/HttpStatus.dart';
 part 'src/model/communication/IREST.dart';
@@ -12,3 +13,5 @@ part 'src/model/communication/RESTFeedbackEvent.dart';
 part 'src/model/communication/RESTResponse.dart';
 part 'src/model/communication/RESTServerURLs.dart';
 part 'src/model/communication/URLToQRImage.dart';
+part 'src/model/communication/uriprovider/UriProvider.dart';
+part 'src/model/communication/uriprovider/UriProviderForTesting.dart';

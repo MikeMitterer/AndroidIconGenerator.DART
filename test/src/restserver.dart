@@ -1,12 +1,17 @@
 part of test;
 
-testREST() {
+testREST(final UriProvider uriprovider) {
 
   group('Read Names from DB', () {
 
+    test('Test UriProvider', () {
+      final String url = "http://localhost:8080/api/hellodb";
+      expect(uriprovider.forHelloDB().toString(),url); 
+      expect(uriprovider.forHelloDB().path,"/api/hellodb");
+    });
+    
     test('Test READ', () {
       final HttpRequest req = new HttpRequest();
-      final String url = "http://localhost:8080/api/hellodb";
 
       loadEnd(HttpRequest request) {
         if (request.readyState == HttpRequest.DONE) {
@@ -15,9 +20,18 @@ testREST() {
 
             case HttpStatus.HTTP_200_OK:
               // Mehr Infos: http://www.dartlang.org/articles/json-web-service/#parsing-json
-              final List response = JSON.parse(request.responseText);
+              final List response = parse(request.responseText);
               print("Text: ${request.responseText}, Status: ${request.status}");
               print(response[0]);
+              expect(response[0]["firstname"],"Mike");
+              
+              final NameTO name = new NameTO.fromJson(response[0]);
+              expect(name,isNotNull);
+              print(name.firstname);
+              
+              expect(name.toJson(),stringify(response[0]));
+              print(name.toJson());
+              
               break;
 
             case HttpStatus.HTTP_0_COMMUNICATION_FAILED:
@@ -31,7 +45,7 @@ testREST() {
         }
       }
 
-      req.open("GET", url);
+      req.open("GET", uriprovider.forHelloDB().toString());
       req.setRequestHeader('Content-type', 'application/json');
       req.setRequestHeader('Accept', 'application/json');
 

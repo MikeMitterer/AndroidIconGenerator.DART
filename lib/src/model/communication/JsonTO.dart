@@ -1,5 +1,5 @@
 part of communication;
 
-abstract class JsonTO {
-  String get json;
+abstract class JsonTO<T> {
+  String toJson();
 }
