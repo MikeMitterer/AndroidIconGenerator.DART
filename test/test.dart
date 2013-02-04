@@ -9,6 +9,7 @@ import 'package:androidicongenerator/tos.dart';
 
 import 'dart:html'; // as html;
 import 'dart:json';
+import 'dart:collection';
 
 part 'src/simple.dart';
 part 'src/restserver.dart';
@@ -21,7 +22,7 @@ main() {
   useHtmlEnhancedConfiguration();
 
   final UriProvider uriprovider = new UriProvider.forTesting();
-  
+
   testSimple();
   testREST(uriprovider);
 }

@@ -10,11 +10,11 @@ testSimple() {
 
     test('Test String', () {
       expect("Mike", equals("Mike"));
-      
+
       final StringBuffer buffer = new StringBuffer('I')
       ..add(" love")
       ..add(" Dart");
-      
+
       expect("I love Dart",buffer.toString());
       });
 
