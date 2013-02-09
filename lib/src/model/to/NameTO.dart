@@ -15,10 +15,13 @@ class NameTO implements JsonTO<NameTO> {
     firstname = map['firstname'];
   }
 
-  String toJson() {
-    final Map map = new HashMap<String,String>();
+  String toJson() => stringify(toMap());
+  
+  Map toMap() {
+    final Map map = new HashMap<String,dynamic>();
     map["firstname"] = firstname;
-    return stringify(map);
+    return map;
   }
+  
 }
 

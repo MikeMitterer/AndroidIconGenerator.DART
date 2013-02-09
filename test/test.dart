@@ -10,9 +10,11 @@ import 'package:androidicongenerator/tos.dart';
 import 'dart:html'; // as html;
 import 'dart:json';
 import 'dart:collection';
+//import 'dart:io' as io;
 
 part 'src/simple.dart';
 part 'src/restserver.dart';
+part 'src/guid.dart';
 
 //
 // Mehr Infos: http://www.dartlang.org/articles/dart-unit-tests/
@@ -25,4 +27,5 @@ main() {
 
   testSimple();
   testREST(uriprovider);
+  testGUID();
 }

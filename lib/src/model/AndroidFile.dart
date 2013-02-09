@@ -23,6 +23,9 @@ class AndroidFile {
         _src = reader.result.toString().trim();
         safeuri = new SafeUri.unsafe(_src);
         isImage = true;
+        
+        print(reader.result);
+        
         watcher.dispatch();
       });
       reader.readAsDataUrl(_file);

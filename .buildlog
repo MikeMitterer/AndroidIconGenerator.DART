@@ -4401,3 +4401,1500 @@ build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --c
 
 build.dart finished [216 ms]
 
+---
+build.dart --machine --clean
+
+build.dart finished [214 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 157 ms
+build.dart finished [375 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [228 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [205 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 209 ms
+build.dart finished [708 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [217 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 256 ms
+build.dart finished [1621 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [248 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 178 ms
+build.dart finished [890 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [210 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 266 ms
+build.dart finished [2200 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [216 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 215 ms
+build.dart finished [3836 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [374 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 222 ms
+build.dart finished [882 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [218 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 160 ms
+build.dart finished [458 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [265 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 532 ms
+build.dart finished [5674 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [326 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 157 ms
+build.dart finished [590 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [258 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 179 ms
+build.dart finished [838 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [224 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 182 ms
+build.dart finished [707 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [280 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 170 ms
+build.dart finished [606 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [239 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 177 ms
+build.dart finished [649 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [210 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 187 ms
+build.dart finished [872 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [216 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 159 ms
+build.dart finished [378 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [467 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 158 ms
+build.dart finished [481 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [236 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 157 ms
+build.dart finished [607 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [210 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 219 ms
+build.dart finished [3035 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [245 ms]
+
+---
+build.dart --machine --changed=lib/src/model/business/dndfiles.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 158 ms
+build.dart finished [458 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [234 ms]
+
+---
+build.dart --machine --changed=lib/src/model/business/dndfiles.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 182 ms
+build.dart finished [763 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [244 ms]
+
+---
+build.dart --machine --changed=lib/src/model/business/dndfiles.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 157 ms
+build.dart finished [361 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [228 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [258 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [217 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [198 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [301 ms]
+
+---
+build.dart --machine --changed=lib/src/model/business/dndfiles.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 201 ms
+build.dart finished [773 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [246 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 170 ms
+build.dart finished [1320 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [310 ms]
+
+---
+build.dart --machine --changed=test/test.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 163 ms
+build.dart finished [422 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [236 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [368 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [246 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 153 ms
+build.dart finished [371 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [239 ms]
+
+---
+build.dart --machine --changed=test/test.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 168 ms
+build.dart finished [429 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [231 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [369 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [223 ms]
+
+---
+build.dart --machine --changed=lib/src/model/business/dndfiles.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [395 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [236 ms]
+
+---
+build.dart --machine --changed=lib/src/model/AndroidFile.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [422 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [245 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 155 ms
+build.dart finished [432 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [232 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [370 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [232 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [371 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [245 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 166 ms
+build.dart finished [382 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [227 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 240 ms
+build.dart finished [1629 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [244 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 274 ms
+build.dart finished [2160 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [264 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 208 ms
+build.dart finished [1061 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [216 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 443 ms
+build.dart finished [2676 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [285 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 157 ms
+build.dart finished [716 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [259 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [395 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [269 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [365 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [233 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 154 ms
+build.dart finished [367 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [233 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [364 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [222 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 158 ms
+build.dart finished [397 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [245 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 224 ms
+build.dart finished [1429 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [256 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 220 ms
+build.dart finished [1523 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [271 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 252 ms
+build.dart finished [1846 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [263 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/UploadResponseTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 155 ms
+build.dart finished [649 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [236 ms]
+
+---
+build.dart --machine --changed=lib/tos.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 174 ms
+build.dart finished [417 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [241 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/UploadResponseTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 165 ms
+build.dart finished [380 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [202 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/ActionBarIconsTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 169 ms
+build.dart finished [407 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [227 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/ActionBarIconsTO.dart --changed=lib/src/model/to/UploadResponse...
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 175 ms
+build.dart finished [400 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [229 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/ActionBarIconsTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [399 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [236 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/ActionBarIconsTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 157 ms
+build.dart finished [368 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [245 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/ActionBarIconsTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 155 ms
+build.dart finished [362 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [244 ms]
+
+---
+build.dart --machine --changed=lib/tos.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 164 ms
+build.dart finished [410 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [232 ms]
+
+---
+build.dart --machine --clean
+
+build.dart finished [206 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 157 ms
+build.dart finished [389 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [234 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/ActionBarIconsTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 158 ms
+build.dart finished [484 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [250 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/UploadResponseTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [361 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [227 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/UploadResponseTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [403 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [241 ms]
+
+---
+build.dart --machine --changed=lib/tos.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 155 ms
+build.dart finished [394 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [264 ms]
+
+---
+build.dart --machine --clean
+
+build.dart finished [234 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 175 ms
+build.dart finished [427 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [276 ms]
+
+---
+build.dart --machine --changed=lib/tos.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 179 ms
+build.dart finished [533 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [556 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/UploadResponseTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 158 ms
+build.dart finished [421 ms]
+
+---
+build.dart --machine --changed=lib/tos.dart --changed=web/out/main.dart --changed=web/out/main.html --changed=w...
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 183 ms
+build.dart finished [403 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [239 ms]
+
+---
+build.dart --machine --clean
+
+build.dart finished [508 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 197 ms
+build.dart finished [465 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [264 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/UploadResponseTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 170 ms
+build.dart finished [426 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [233 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/UploadResponseTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [369 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [242 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/UploadResponseTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [370 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [219 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/ActionBarIconsTO.dart --changed=lib/src/model/to/UploadResponse...
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 170 ms
+build.dart finished [385 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [222 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [360 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [217 ms]
+
+---
+build.dart --machine --clean
+
+build.dart finished [216 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 157 ms
+build.dart finished [376 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [238 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [366 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [222 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/UploadResponseTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [362 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [233 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 154 ms
+build.dart finished [563 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [218 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [365 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [205 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/UploadResponseTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 179 ms
+build.dart finished [680 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [242 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/ActionBarIconsTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 203 ms
+build.dart finished [723 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [371 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/JsonTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 158 ms
+build.dart finished [375 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [323 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/NameTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 170 ms
+build.dart finished [697 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [202 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/NameTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 155 ms
+build.dart finished [492 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [205 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/UploadResponseTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 159 ms
+build.dart finished [369 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [370 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/UploadResponseTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [652 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [214 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/NameTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 177 ms
+build.dart finished [756 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [314 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/ActionBarIconsTO.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 164 ms
+build.dart finished [376 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [205 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 170 ms
+build.dart finished [997 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [202 ms]
+
+---
+build.dart --machine --changed=lib/communication.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 155 ms
+build.dart finished [372 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [205 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 161 ms
+build.dart finished [489 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [207 ms]
+
+---
+build.dart --machine --changed=lib/communication.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 177 ms
+build.dart finished [971 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [204 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 168 ms
+build.dart finished [419 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [196 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 160 ms
+build.dart finished [378 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [513 ms]
+
+---
+build.dart --machine --changed=lib/communication.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 160 ms
+build.dart finished [856 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [213 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 187 ms
+build.dart finished [846 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [200 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 157 ms
+build.dart finished [373 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [217 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 208 ms
+build.dart finished [1021 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [236 ms]
+
+---
+build.dart --machine --changed=test/src/guid.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 180 ms
+build.dart finished [521 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [211 ms]
+
+---
+build.dart --machine --changed=test/src/guid.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 157 ms
+build.dart finished [362 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [208 ms]
+
+---
+build.dart --machine --changed=test/test.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 163 ms
+build.dart finished [379 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [207 ms]
+
+---
+build.dart --machine --changed=test/test.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 162 ms
+build.dart finished [538 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [223 ms]
+
+---
+build.dart --machine --changed=test/src/guid.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 165 ms
+build.dart finished [381 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [352 ms]
+
+---
+build.dart --machine --changed=test/src/guid.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 186 ms
+build.dart finished [461 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [369 ms]
+
+---
+build.dart --machine --changed=test/src/guid.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 186 ms
+build.dart finished [405 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [205 ms]
+
+---
+build.dart --machine --changed=test/src/guid.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 185 ms
+build.dart finished [755 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [361 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 178 ms
+build.dart finished [748 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [213 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 177 ms
+build.dart finished [441 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [209 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 154 ms
+build.dart finished [363 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [221 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 157 ms
+build.dart finished [509 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [379 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [361 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [210 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 196 ms
+build.dart finished [913 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [231 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 173 ms
+build.dart finished [571 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [219 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 158 ms
+build.dart finished [380 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [214 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 159 ms
+build.dart finished [372 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [215 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 157 ms
+build.dart finished [367 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [211 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 179 ms
+build.dart finished [403 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [227 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 193 ms
+build.dart finished [796 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [218 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 154 ms
+build.dart finished [655 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [207 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 158 ms
+build.dart finished [371 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [223 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 181 ms
+build.dart finished [404 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [213 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 157 ms
+build.dart finished [570 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [244 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 191 ms
+build.dart finished [780 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [226 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 201 ms
+build.dart finished [805 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [221 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 159 ms
+build.dart finished [369 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [210 ms]
+
+---
+build.dart --machine --changed=test/src/guid.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 157 ms
+build.dart finished [376 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [208 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 181 ms
+build.dart finished [781 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [216 ms]
+
+---
+build.dart --machine --changed=test/src/guid.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 204 ms
+build.dart finished [798 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [211 ms]
+
+---
+build.dart --machine --changed=test/src/guid.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 158 ms
+build.dart finished [495 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [225 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 156 ms
+build.dart finished [363 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [216 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 158 ms
+build.dart finished [379 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [210 ms]
+
+---
+build.dart --machine --changed=test/src/guid.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 169 ms
+build.dart finished [385 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [210 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 157 ms
+build.dart finished [511 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [215 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 178 ms
+build.dart finished [562 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --changed=web/out/main.html_bootst...
+
+build.dart finished [259 ms]
+

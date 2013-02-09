@@ -16,13 +16,16 @@ class DndFiles {
     //_output = document.query('#list');
     _readForm = document.query('#read');
     _fileInput = document.query('#file');
-    _fileInput.on.change.add((e) => _onFileInputChange());
+    
+    _fileInput.onChange.listen((e) => _onFileInputChange());
 
     _dropZone = document.query('#drop-zone');
-    _dropZone.on.dragOver.add(_onDragOver);
-    _dropZone.on.dragEnter.add((e) => _dropZone.classes.add('hover'));
-    _dropZone.on.dragLeave.add((e) => _dropZone.classes.remove('hover'));
-    _dropZone.on.drop.add(_onDrop);
+    _dropZone.onDragOver.listen(_onDragOver);
+    
+    _dropZone.onDragEnter.listen((e) => _dropZone.classes.add('hover'));
+
+    _dropZone.onDragLeave.listen((e) => _dropZone.classes.remove('hover'));
+    _dropZone.onDrop.listen(_onDrop);
   }
 
   //----------------------------------------------------------------------------
@@ -103,6 +106,7 @@ class DndFiles {
           thumbnail.title = htmlEscape(file.name);
           thumbHolder.nodes.add(thumbnail);
 
+          print(reader.result);
           // _sendDatas(reader.result);
 
         });
