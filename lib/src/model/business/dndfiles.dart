@@ -16,12 +16,12 @@ class DndFiles {
     //_output = document.query('#list');
     _readForm = document.query('#read');
     _fileInput = document.query('#file');
-    
+
     _fileInput.onChange.listen((e) => _onFileInputChange());
 
     _dropZone = document.query('#drop-zone');
     _dropZone.onDragOver.listen(_onDragOver);
-    
+
     _dropZone.onDragEnter.listen((e) => _dropZone.classes.add('hover'));
 
     _dropZone.onDragLeave.listen((e) => _dropZone.classes.remove('hover'));
@@ -100,7 +100,7 @@ class DndFiles {
       if (file.type.startsWith('image')) {
         Element thumbHolder = new Element.tag('span');
         FileReader reader = new FileReader();
-        reader.on.load.add((e) {
+        reader.onLoad.listen((e) {
           ImageElement thumbnail = new ImageElement(src: reader.result);
           thumbnail.classes.add('thumb');
           thumbnail.title = htmlEscape(file.name);
@@ -118,12 +118,12 @@ class DndFiles {
       }
 
       final StringBuffer buffer = new StringBuffer('<strong>')
-          ..add(file.name)
-          ..add('</strong> (')
-          ..add(file.type != null ? htmlEscape(file.type) : 'n/a')
-          ..add(') ')
-          ..add(file.size)
-          ..add(' bytes');
+          ..write(file.name)
+          ..write('</strong> (')
+          ..write(file.type != null ? htmlEscape(file.type) : 'n/a')
+          ..write(') ')
+          ..write(file.size)
+          ..write(' bytes');
 
           // TODO(jason9t): Re-enable this when issue 5070 is resolved.
           // http://code.google.com/p/dart/issues/detail?id=5070
@@ -151,7 +151,7 @@ class DndFiles {
   _sendDatas(dynamic data) {
     final HttpRequest req = new HttpRequest();
 
-    req.on.readyStateChange.add((Event e) {
+    req.onReadyStateChange.listen((Event e) {
       if (req.readyState == HttpRequest.DONE &&
           (req.status == 200 || req.status == 0)) {
         window.alert("upload complete");
@@ -167,7 +167,7 @@ class DndFiles {
     final String filename = file.name;
 
     httprequest.open('POST', "http://localhost:8080/api/file/upload");
-    httprequest.on.readyStateChange.add((e) {
+    httprequest.onReadyStateChange.listen((e) {
       if (httprequest.readyState == 4 && httprequest.status == 200) {
         window.alert("upload complete");
       } else {

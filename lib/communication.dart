@@ -3,7 +3,6 @@ library communication;
 import 'dart:html';
 import 'dart:json';
 import 'dart:uri';
-import 'dart:scalarlist';
 import 'dart:math' as Math;
 
 part 'src/model/communication/HttpStatus.dart';

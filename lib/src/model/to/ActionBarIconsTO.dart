@@ -11,8 +11,8 @@ part of tos;
 
    ActionBarIconsTO(this.ldpi18x18, this.mdpi24x24, this.hdpi36x36, this.xhdpi48x48,
                     this.hdpi48x48_v10, this.mdpi32x32_v10, this.ldpi24x24_v10);
-   
-   
+
+
    ActionBarIconsTO.fromJson(json) {
      Map<String,dynamic> map;
      print(json.runtimeType);
@@ -30,10 +30,10 @@ part of tos;
    }
 
    String toJson() => stringify(toMap());
-   
+
    Map toMap() {
      final Map map = new HashMap<String,dynamic>();
-     
+
      map["ldpi18x18"] = ldpi18x18;
      map["mdpi24x24"] = mdpi24x24;
      map["hdpi36x36"] = hdpi36x36;

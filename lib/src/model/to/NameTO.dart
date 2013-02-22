@@ -16,12 +16,12 @@ class NameTO implements JsonTO<NameTO> {
   }
 
   String toJson() => stringify(toMap());
-  
+
   Map toMap() {
     final Map map = new HashMap<String,dynamic>();
     map["firstname"] = firstname;
     return map;
   }
-  
+
 }
 

@@ -19,13 +19,13 @@ class AndroidFile {
     // If the file is an image, read and display its thumbnail.
     if (_file.type.startsWith('image')) {
       FileReader reader = new FileReader();
-      reader.on.load.add((e) {
+      reader.onLoad.listen((e) {
         _src = reader.result.toString().trim();
         safeuri = new SafeUri.unsafe(_src);
         isImage = true;
-        
+
         print(reader.result);
-        
+
         watcher.dispatch();
       });
       reader.readAsDataUrl(_file);

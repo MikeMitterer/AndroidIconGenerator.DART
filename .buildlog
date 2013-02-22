@@ -5898,3 +5898,416 @@ build.dart --machine --changed=web/out/main.dart --changed=web/out/main.html --c
 
 build.dart finished [259 ms]
 
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'Strings'
+Receiver: Type: class '::'
+Arguments: []
+Stack Trace:
+#0      toCamelCase (package:web_ui/src/utils.dart:26:10)
+#1      _Analyzer.visitElementInfo (package:web_ui/src/analyzer.dart:121:58)
+#2      _Analyzer.visitElement (package:web_ui/src/analyzer.dart:111:21)
+#3      TreeVisitor.visit (package:html5lib/dom_parsing.dart:208:50)
+#4      TreeVisitor.visitChildren (package:html5lib/dom_parsing.dart:220:49)
+#5      TreeVisitor.visitNodeFallback (package:html5lib/dom_parsing.dart:228:48)
+#6      TreeVisitor.visitElement (package:html5lib/dom_parsing.dart:237:50)
+#7      _Analyzer.visitElementInfo (package:web_ui/src/analyzer.dart:154:23)
+#8      _Analyzer.visitElement (package:web_ui/src/analyzer.dart:111:21)
+#9      TreeVisitor.visit (package:html5lib/dom_parsing.dart:208:50)
+#10     TreeVisitor.visitChildren (package:html5lib/dom_parsing.dart:220:49)
+#11     TreeVisitor.visitNodeFallback (package:html5lib/dom_parsing.dart:228:48)
+#12     TreeVisitor.visitElement (package:html5lib/dom_parsing.dart:237:50)
+#13     _Analyzer.visitElementInfo (package:web_ui/src/analyzer.dart:154:23)
+#14     _Analyzer.visitElement (package:web_ui/src/analyzer.dart:111:21)
+#15     TreeVisitor.visit (package:html5lib/dom_parsing.dart:208:50)
+#16     TreeVisitor.visitChildren (package:html5lib/dom_parsing.dart:220:49)
+#17     TreeVisitor.visitNodeFallback (package:html5lib/dom_parsing.dart:228:48)
+#18     TreeVisitor.visitElement (package:html5lib/dom_parsing.dart:237:50)
+#19     _Analyzer.visitElementInfo (package:web_ui/src/analyzer.dart:154:23)
+#20     _Analyzer.visitElement (package:web_ui/src/analyzer.dart:111:21)
+#21     TreeVisitor.visit (package:html5lib/dom_parsing.dart:208:50)
+#22     TreeVisitor.visitChildren (package:html5lib/dom_parsing.dart:220:49)
+#23     TreeVisitor.visitNodeFallback (package:html5lib/dom_parsing.dart:228:48)
+#24     TreeVisitor.visitElement (package:html5lib/dom_parsing.dart:237:50)
+#25     _Analyzer.visitElementInfo (package:web_ui/src/analyzer.dart:154:23)
+#26     _Analyzer.visitElement (package:web_ui/src/analyzer.dart:111:21)
+#27     TreeVisitor.visit (package:html5lib/dom_parsing.dart:208:50)
+#28     TreeVisitor.visitChildren (package:html5lib/dom_parsing.dart:220:49)
+#29     TreeVisitor.visitNodeFallback (package:html5lib/dom_parsing.dart:228:48)
+#30     TreeVisitor.visitDocument (package:html5lib/dom_parsing.dart:230:52)
+#31     TreeVisitor.visit (package:html5lib/dom_parsing.dart:212:52)
+#32     analyzeFile (package:web_ui/src/analyzer.dart:62:17)
+#33     Compiler._analyze.<anonymous closure> (package:web_ui/src/compiler.dart:205:28)
+#34     time (package:web_ui/src/utils.dart:38:24)
+#35     Compiler._time (package:web_ui/src/compiler.dart:291:16)
+#36     Compiler._analyze (package:web_ui/src/compiler.dart:204:12)
+#37     Compiler.run.<anonymous closure> (package:web_ui/src/compiler.dart:101:15)
+#38     _ThenFuture._sendValue (dart:async:411:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'Strings'
+Receiver: Type: class '::'
+Arguments: []
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:339:9)
+#1      Timer.Timer.<anonymous closure> (dart:async-patch:11:15)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7243:28)
+#3      _Timer._createTimerHandler._handleTimeout (dart:io:7251:7)
+#4      _Timer._createTimerHandler.<anonymous closure> (dart:io:7259:23)
+#5      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [636 ms]
+
+---
+build.dart --machine --clean
+
+build.dart finished [287 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'Strings'
+Receiver: Type: class '::'
+Arguments: []
+Stack Trace:
+#0      toCamelCase (package:web_ui/src/utils.dart:26:10)
+#1      _Analyzer.visitElementInfo (package:web_ui/src/analyzer.dart:121:58)
+#2      _Analyzer.visitElement (package:web_ui/src/analyzer.dart:111:21)
+#3      TreeVisitor.visit (package:html5lib/dom_parsing.dart:208:50)
+#4      TreeVisitor.visitChildren (package:html5lib/dom_parsing.dart:220:49)
+#5      TreeVisitor.visitNodeFallback (package:html5lib/dom_parsing.dart:228:48)
+#6      TreeVisitor.visitElement (package:html5lib/dom_parsing.dart:237:50)
+#7      _Analyzer.visitElementInfo (package:web_ui/src/analyzer.dart:154:23)
+#8      _Analyzer.visitElement (package:web_ui/src/analyzer.dart:111:21)
+#9      TreeVisitor.visit (package:html5lib/dom_parsing.dart:208:50)
+#10     TreeVisitor.visitChildren (package:html5lib/dom_parsing.dart:220:49)
+#11     TreeVisitor.visitNodeFallback (package:html5lib/dom_parsing.dart:228:48)
+#12     TreeVisitor.visitElement (package:html5lib/dom_parsing.dart:237:50)
+#13     _Analyzer.visitElementInfo (package:web_ui/src/analyzer.dart:154:23)
+#14     _Analyzer.visitElement (package:web_ui/src/analyzer.dart:111:21)
+#15     TreeVisitor.visit (package:html5lib/dom_parsing.dart:208:50)
+#16     TreeVisitor.visitChildren (package:html5lib/dom_parsing.dart:220:49)
+#17     TreeVisitor.visitNodeFallback (package:html5lib/dom_parsing.dart:228:48)
+#18     TreeVisitor.visitElement (package:html5lib/dom_parsing.dart:237:50)
+#19     _Analyzer.visitElementInfo (package:web_ui/src/analyzer.dart:154:23)
+#20     _Analyzer.visitElement (package:web_ui/src/analyzer.dart:111:21)
+#21     TreeVisitor.visit (package:html5lib/dom_parsing.dart:208:50)
+#22     TreeVisitor.visitChildren (package:html5lib/dom_parsing.dart:220:49)
+#23     TreeVisitor.visitNodeFallback (package:html5lib/dom_parsing.dart:228:48)
+#24     TreeVisitor.visitElement (package:html5lib/dom_parsing.dart:237:50)
+#25     _Analyzer.visitElementInfo (package:web_ui/src/analyzer.dart:154:23)
+#26     _Analyzer.visitElement (package:web_ui/src/analyzer.dart:111:21)
+#27     TreeVisitor.visit (package:html5lib/dom_parsing.dart:208:50)
+#28     TreeVisitor.visitChildren (package:html5lib/dom_parsing.dart:220:49)
+#29     TreeVisitor.visitNodeFallback (package:html5lib/dom_parsing.dart:228:48)
+#30     TreeVisitor.visitDocument (package:html5lib/dom_parsing.dart:230:52)
+#31     TreeVisitor.visit (package:html5lib/dom_parsing.dart:212:52)
+#32     analyzeFile (package:web_ui/src/analyzer.dart:62:17)
+#33     Compiler._analyze.<anonymous closure> (package:web_ui/src/compiler.dart:205:28)
+#34     time (package:web_ui/src/utils.dart:38:24)
+#35     Compiler._time (package:web_ui/src/compiler.dart:291:16)
+#36     Compiler._analyze (package:web_ui/src/compiler.dart:204:12)
+#37     Compiler.run.<anonymous closure> (package:web_ui/src/compiler.dart:101:15)
+#38     _ThenFuture._sendValue (dart:async:411:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'Strings'
+Receiver: Type: class '::'
+Arguments: []
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:339:9)
+#1      Timer.Timer.<anonymous closure> (dart:async-patch:11:15)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7243:28)
+#3      _Timer._createTimerHandler._handleTimeout (dart:io:7251:7)
+#4      _Timer._createTimerHandler.<anonymous closure> (dart:io:7259:23)
+#5      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [549 ms]
+
+---
+build.dart --machine --changed=lib/src/model/AndroidFile.dart --changed=lib/src/model/business/dndfiles.dart --...
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'Strings'
+Receiver: Type: class '::'
+Arguments: []
+Stack Trace:
+#0      toCamelCase (package:web_ui/src/utils.dart:26:10)
+#1      _Analyzer.visitElementInfo (package:web_ui/src/analyzer.dart:121:58)
+#2      _Analyzer.visitElement (package:web_ui/src/analyzer.dart:111:21)
+#3      TreeVisitor.visit (package:html5lib/dom_parsing.dart:208:50)
+#4      TreeVisitor.visitChildren (package:html5lib/dom_parsing.dart:220:49)
+#5      TreeVisitor.visitNodeFallback (package:html5lib/dom_parsing.dart:228:48)
+#6      TreeVisitor.visitElement (package:html5lib/dom_parsing.dart:237:50)
+#7      _Analyzer.visitElementInfo (package:web_ui/src/analyzer.dart:154:23)
+#8      _Analyzer.visitElement (package:web_ui/src/analyzer.dart:111:21)
+#9      TreeVisitor.visit (package:html5lib/dom_parsing.dart:208:50)
+#10     TreeVisitor.visitChildren (package:html5lib/dom_parsing.dart:220:49)
+#11     TreeVisitor.visitNodeFallback (package:html5lib/dom_parsing.dart:228:48)
+#12     TreeVisitor.visitElement (package:html5lib/dom_parsing.dart:237:50)
+#13     _Analyzer.visitElementInfo (package:web_ui/src/analyzer.dart:154:23)
+#14     _Analyzer.visitElement (package:web_ui/src/analyzer.dart:111:21)
+#15     TreeVisitor.visit (package:html5lib/dom_parsing.dart:208:50)
+#16     TreeVisitor.visitChildren (package:html5lib/dom_parsing.dart:220:49)
+#17     TreeVisitor.visitNodeFallback (package:html5lib/dom_parsing.dart:228:48)
+#18     TreeVisitor.visitElement (package:html5lib/dom_parsing.dart:237:50)
+#19     _Analyzer.visitElementInfo (package:web_ui/src/analyzer.dart:154:23)
+#20     _Analyzer.visitElement (package:web_ui/src/analyzer.dart:111:21)
+#21     TreeVisitor.visit (package:html5lib/dom_parsing.dart:208:50)
+#22     TreeVisitor.visitChildren (package:html5lib/dom_parsing.dart:220:49)
+#23     TreeVisitor.visitNodeFallback (package:html5lib/dom_parsing.dart:228:48)
+#24     TreeVisitor.visitElement (package:html5lib/dom_parsing.dart:237:50)
+#25     _Analyzer.visitElementInfo (package:web_ui/src/analyzer.dart:154:23)
+#26     _Analyzer.visitElement (package:web_ui/src/analyzer.dart:111:21)
+#27     TreeVisitor.visit (package:html5lib/dom_parsing.dart:208:50)
+#28     TreeVisitor.visitChildren (package:html5lib/dom_parsing.dart:220:49)
+#29     TreeVisitor.visitNodeFallback (package:html5lib/dom_parsing.dart:228:48)
+#30     TreeVisitor.visitDocument (package:html5lib/dom_parsing.dart:230:52)
+#31     TreeVisitor.visit (package:html5lib/dom_parsing.dart:212:52)
+#32     analyzeFile (package:web_ui/src/analyzer.dart:62:17)
+#33     Compiler._analyze.<anonymous closure> (package:web_ui/src/compiler.dart:205:28)
+#34     time (package:web_ui/src/utils.dart:38:24)
+#35     Compiler._time (package:web_ui/src/compiler.dart:291:16)
+#36     Compiler._analyze (package:web_ui/src/compiler.dart:204:12)
+#37     Compiler.run.<anonymous closure> (package:web_ui/src/compiler.dart:101:15)
+#38     _ThenFuture._sendValue (dart:async:411:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'Strings'
+Receiver: Type: class '::'
+Arguments: []
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:339:9)
+#1      Timer.Timer.<anonymous closure> (dart:async-patch:11:15)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7243:28)
+#3      _Timer._createTimerHandler._handleTimeout (dart:io:7251:7)
+#4      _Timer._createTimerHandler.<anonymous closure> (dart:io:7259:23)
+#5      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [571 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [234 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [215 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  14 ms
+build.dart finished [485 ms]
+
+---
+build.dart --machine --removed=web/out/main.dart --removed=web/out/main.html --removed=web/out/main.html_bootst...
+Total time                                                   --  14 ms
+build.dart finished [458 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  14 ms
+build.dart finished [457 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart --changed=web/out/main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 322 ms
+Total time                                                   -- 339 ms
+build.dart finished [786 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  17 ms
+build.dart finished [509 ms]
+
+---
+build.dart --machine --changed=web/main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 326 ms
+Total time                                                   -- 344 ms
+build.dart finished [904 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  14 ms
+build.dart finished [466 ms]
+
+---
+build.dart --machine --changed=web/main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 337 ms
+Total time                                                   -- 355 ms
+build.dart finished [815 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  16 ms
+build.dart finished [653 ms]
+
+---
+build.dart --machine --changed=lib/src/model/AndroidFile.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 341 ms
+Total time                                                   -- 358 ms
+build.dart finished [1231 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  14 ms
+build.dart finished [485 ms]
+
+---
+build.dart --machine --changed=lib/src/model/business/dndfiles.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 438 ms
+Total time                                                   -- 455 ms
+build.dart finished [1423 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  14 ms
+build.dart finished [543 ms]
+
+---
+build.dart --machine --changed=lib/src/model/business/dndfiles.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 325 ms
+Total time                                                   -- 342 ms
+build.dart finished [1009 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  14 ms
+build.dart finished [485 ms]
+
+---
+build.dart --machine --changed=lib/src/view/EventsManager.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 323 ms
+Total time                                                   -- 342 ms
+build.dart finished [801 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  14 ms
+build.dart finished [470 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  14 ms
+build.dart finished [433 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 353 ms
+Total time                                                   -- 375 ms
+build.dart finished [822 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  14 ms
+build.dart finished [493 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  14 ms
+build.dart finished [435 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 345 ms
+Total time                                                   -- 363 ms
+build.dart finished [803 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  15 ms
+build.dart finished [468 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  14 ms
+build.dart finished [444 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 349 ms
+Total time                                                   -- 366 ms
+build.dart finished [801 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  15 ms
+build.dart finished [463 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  14 ms
+build.dart finished [463 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 337 ms
+Total time                                                   -- 354 ms
+build.dart finished [804 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  14 ms
+build.dart finished [448 ms]
+
+---
+build.dart --machine --changed=lib/communication.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 343 ms
+Total time                                                   -- 362 ms
+build.dart finished [801 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  16 ms
+build.dart finished [530 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  13 ms
+build.dart finished [454 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  14 ms
+build.dart finished [436 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 332 ms
+Total time                                                   -- 351 ms
+build.dart finished [810 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  15 ms
+build.dart finished [550 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  14 ms
+build.dart finished [437 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 366 ms
+Total time                                                   -- 384 ms
+build.dart finished [845 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  13 ms
+build.dart finished [484 ms]
+
