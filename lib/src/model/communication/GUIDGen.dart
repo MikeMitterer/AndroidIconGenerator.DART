@@ -3,10 +3,10 @@ part of communication;
 class GUIDGen {
 
   static String generate() {
-    final Math.Random random = new Math.Random(new DateTime.now().millisecond);
+    Math.Random random = new Math.Random(new DateTime.now().millisecond);
 
     final String hexDigits = "0123456789abcdef";
-    final List<String> uuid = new List<String>.fixedLength(36);
+    final List<String> uuid = new List<String>(36);
 
     for (int i = 0; i < 36; i++) {
       final int hexPos = random.nextInt(16);
@@ -21,7 +21,7 @@ class GUIDGen {
     uuid[8] = uuid[13] = uuid[18] = uuid[23] = "-";
 
     final StringBuffer buffer = new StringBuffer();
-    buffer.addAll(uuid);
+    buffer.writeAll(uuid);
     return buffer.toString();
   }
 }

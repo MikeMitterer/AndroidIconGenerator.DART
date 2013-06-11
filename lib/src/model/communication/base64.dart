@@ -51,9 +51,9 @@ class Base64 {
     StringBuffer output = new StringBuffer();
     for (i = 0; i < characters.length; i++) {
       if (i > 0 && i % 76 == 0) {
-        output.add("\r\n");
+        output.write("\r\n");
       }
-      output.add(characters[i]);
+      output.write(characters[i]);
     }
     return output.toString();
   }
@@ -68,7 +68,7 @@ class Base64 {
     int charCount = 0;
     int value = 0;
     for (int i = 0; i < data.length; i++) {
-      int char = data.charCodeAt(i);
+      int char = data.codeUnitAt(i);
       if (65 <= char && char <= 90) {  // "A" - "Z".
         value = (value << 6) | char - 65;
         charCount++;

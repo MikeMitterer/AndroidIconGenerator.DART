@@ -17,7 +17,7 @@ class EventsManager {
     _colorInput = _settingsForm.query('#foregroundColor');
     _backgroundInput = _settingsForm.query('#backgroundColor');
 
-    
+
     _colorInput.onChange.listen((event) {
       _eventbus.on['foreground'].dispatch(new AppEvent('fg'));
       });

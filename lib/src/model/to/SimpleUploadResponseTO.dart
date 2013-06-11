@@ -1,32 +1,31 @@
 part of tos;
 
-class NameTO implements JsonTO<NameTO> {
-  int id;
-  String firstname;
+class SimpleUploadResponseTO implements JsonTO<SimpleUploadResponseTO> {
+  String        path;
 
-  NameTO(this.firstname);
+  SimpleUploadResponseTO(this.path);
 
-  NameTO.fromJson(json) {
+
+  SimpleUploadResponseTO.fromJson(json) {
     Map<String,dynamic> map;
     print(json.runtimeType);
 
     if(json is LinkedHashMap<String,dynamic> ) { map = json; }
     else { map = parse(json); }
 
-    id = map['id'];
-    firstname = map['firstname'];
+    path = map['path'];
   }
 
   String toJson() => stringify(toMap());
 
   Map toMap() {
     final Map map = new HashMap<String,dynamic>();
-    
-    map["id"] = id;
-    map["firstname"] = firstname;
+
+    map["path"] = path;
     
     return map;
   }
 
 }
+
 

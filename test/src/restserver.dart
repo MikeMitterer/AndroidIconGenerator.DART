@@ -5,9 +5,9 @@ testREST(final UriProvider uriprovider) {
   group('Communication + JSON', () {
 
     test(' -> Test UriProvider', () {
-      final String url = "http://localhost:8080/api/hellodb";
+      final String url = "http://localhost:8080/hellodb/names";
       expect(uriprovider.forHelloDB().toString(),url);
-      expect(uriprovider.forHelloDB().path,"/api/hellodb");
+      expect(uriprovider.forHelloDB().path,"/hellodb/names");
     });
 
     test(' -> Test READ from REST-Server', () {
@@ -27,9 +27,11 @@ testREST(final UriProvider uriprovider) {
 
               final NameTO name = new NameTO.fromJson(response[0]);
               expect(name,isNotNull);
+              expect(name.firstname,"Mike");
+              expect(name.id,1);
               print(name.firstname);
 
-              expect(name.toJson(),stringify(response[0]));
+              //expect(name.toJson(),stringify(response[0]));
               print(name.toJson());
 
               break;
@@ -85,7 +87,7 @@ testREST(final UriProvider uriprovider) {
               print(response['path']);
               expect(response['path'].endsWith("android.png"),true);
 
-              final UploadResponseTO ur = new UploadResponseTO.fromJson(request.responseText);
+              final SimpleUploadResponseTO ur = new SimpleUploadResponseTO.fromJson(request.responseText);
               expect(ur.path.endsWith("android.png"),true);
 
               print(ur.toJson());
@@ -114,7 +116,10 @@ testREST(final UriProvider uriprovider) {
       final String raw = "iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAQAAAAC0hrNAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAJiS0dEAACqjSMyAAAC1ElEQVRYw+2XzUtUURTAf+N8R4hFVqRkaJYRLgQrMKisdrVQEAQLI6JNSH+A4K59mwp3UajQwoyslJZRgUJRRANCLaIvB9R0THnNm3m3xVzfvBnHO3feDBE458LjvHvvO7937jv3nHdhs0sF12hUzmigD6+eqfxiMU27YqaH00yT1MFpvROzHMHiJ+BhKzuoZhthBCYALexjHKFjyKeFs5igkxhHOcFhdhECDKJEeMEUJ3ms55u+1POQr5iIrGbyjUc0lBLlp5uPWOtQ6RahB39pYCH6iSlQqbbMAOHiYT76MeSy5fbPkktsMKAZCQrpYgmB4Dkd3M+JG6aDSQSCGN3FwWp5K41eAU6xsg62yhmgV3r+jr1qg+p9d5VL9heM0UPruhl+vCS4LLPObqK8cutbFa8zQn6jbxd33E2x3S3uGIt5IzK7LdGmMqnKmU1UFvyKlTSphlWhW41VcHLysVM17FGM1dOol3gz7H3mk653Xo5zHoNR3gOCJRe41BPNdBHmKS9V63OBWQSCGVqBmxj8LrAZDAItRBAIovZGyikRO8IGgdsFx6VAcBe4Zd/NZAIyI/OArR1ynXAFIUd07lfh0jnGr/VbsdH3Sz+bZcW9UVdSxpVxZdymxYmCS48L3KKtzRN3adGD6bCzrMKNSZ9MxkkoK71KEozLlxWMZQ5lVvMBDM4RZ4iRotbsAbX0EmCCG+qJAeqokYXojuvyCl5qqCOQbT77TyzOl6L8WpMk33N1qzaC4Qq0ohpU4SaYKxi2wBPVsCr6KujkIluwqKLVXvYffJBaM3ukluQNC1RgMMxoMed0P0G8tMlTnkAwRJAAAYIM2X0rtOMlmP/AnO+8aTquKbH4Y2trIkiQ1PHqP8mZZdw/wYkcGrrlSg8Xc+SKX7aWTgKrjpJTAglyT+6wec7ave3Myd4RQqXEQSPPMIly3bFTffQxS4JJDpYWVhYt+Qt2HYjtRlsGfAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxMy0wMS0wNVQxNjo0NToyOSswMTowMOqhDGcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTMtMDEtMDVUMTY6NDU6MjkrMDE6MDCb/LTbAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAABJRU5ErkJggg==";
       final String contenttype = "image/png";
 
-      final List<int> intList = Base64.decode(raw);
+      //final List<int> intList = Base64.decode(raw);
+      final List<int> intList = CryptoUtils.base64StringToBytes(raw);
+      
+      /*
       final Int8Array int8array = new Int8Array.fromList(intList);
       String binary = window.atob(base64Image.split(',')[1]);
 
@@ -122,9 +127,12 @@ testREST(final UriProvider uriprovider) {
       for(int i = 0;i< intList.length;i++) {
         uint8array[i] = intList[i];
       }
+      */
+      
+      final Uint8List uint8list = new Uint8List.fromList(intList);
       // final String atobString = window.atob(base64Image);
 
-      final Blob blob = new Blob([uint8array]);
+      final Blob blob = new Blob([uint8list]);
         //final Blob blob  = new Blob([uint8array], contenttype);
 
 //      final FileReader filereader = new FileReader();

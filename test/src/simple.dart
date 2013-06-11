@@ -12,8 +12,8 @@ testSimple() {
       expect("Mike", equals("Mike"));
 
       final StringBuffer buffer = new StringBuffer('I')
-      ..add(" love")
-      ..add(" Dart");
+      ..write(" love")
+      ..write(" Dart");
 
       expect("I love Dart",buffer.toString());
       });

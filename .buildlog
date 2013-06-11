@@ -6311,3 +6311,1092 @@ build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map
 Total time                                                   --  13 ms
 build.dart finished [484 ms]
 
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 468 ms
+Total time                                                   -- 485 ms
+build.dart finished [1481 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  15 ms
+build.dart finished [464 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  15 ms
+build.dart finished [474 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 364 ms
+Total time                                                   -- 381 ms
+build.dart finished [882 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  18 ms
+build.dart finished [678 ms]
+
+---
+build.dart --machine --changed=lib/src/view/EventsManager.dart --changed=web/out/main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 341 ms
+Total time                                                   -- 358 ms
+build.dart finished [915 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  14 ms
+build.dart finished [489 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  14 ms
+build.dart finished [530 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+'package:logging/logging.dart': Error: line 250 pos 24: wrong number of type arguments in type 'Comparable'
+class Level implements Comparable<Level> {
+                       ^
+build.dart finished [609 ms]
+
+---
+build.dart --machine --clean
+'package:logging/logging.dart': Error: line 250 pos 24: wrong number of type arguments in type 'Comparable'
+class Level implements Comparable<Level> {
+                       ^
+build.dart finished [513 ms]
+
+---
+build.dart --machine --full
+'package:logging/logging.dart': Error: line 250 pos 24: wrong number of type arguments in type 'Comparable'
+class Level implements Comparable<Level> {
+                       ^
+build.dart finished [458 ms]
+
+---
+build.dart --machine --removed=web/out/main.dart --removed=web/out/main.dart.map --removed=web/out/main.html --...
+'package:logging/logging.dart': Error: line 250 pos 24: wrong number of type arguments in type 'Comparable'
+class Level implements Comparable<Level> {
+                       ^
+build.dart finished [453 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+'package:logging/logging.dart': Error: line 250 pos 24: wrong number of type arguments in type 'Comparable'
+class Level implements Comparable<Level> {
+                       ^
+build.dart finished [486 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+'package:logging/logging.dart': Error: line 250 pos 24: wrong number of type arguments in type 'Comparable'
+class Level implements Comparable<Level> {
+                       ^
+build.dart finished [441 ms]
+
+---
+build.dart --machine --changed=web/main.html
+'package:logging/logging.dart': Error: line 250 pos 24: wrong number of type arguments in type 'Comparable'
+class Level implements Comparable<Level> {
+                       ^
+build.dart finished [449 ms]
+
+---
+build.dart --machine --full
+'package:logging/logging.dart': Error: line 250 pos 24: wrong number of type arguments in type 'Comparable'
+class Level implements Comparable<Level> {
+                       ^
+build.dart finished [435 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  18 ms
+build.dart finished [613 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  16 ms
+build.dart finished [605 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 354 ms
+Total time                                                   -- 372 ms
+build.dart finished [1297 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  13 ms
+build.dart finished [563 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/base64.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 341 ms
+Total time                                                   -- 360 ms
+build.dart finished [912 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  14 ms
+build.dart finished [574 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/base64.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 330 ms
+Total time                                                   -- 347 ms
+build.dart finished [1013 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  14 ms
+build.dart finished [561 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  14 ms
+Uncaught Error: Class '_SingleControllerStream<FileSystemEntity>' has no instance setter 'onFile='.
+
+NoSuchMethodError : method not found: 'onFile='
+Receiver: Instance of '_SingleControllerStream@0x2900bd4a<FileSystemEntity>'
+Arguments: [Closure: (dynamic, dynamic) => dynamic]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1828:25)
+#1      _handleCleanCommand.<anonymous closure> (package:web_ui/component_build.dart:108:34)
+#2      _ThenFuture._sendValue (dart:async:419:24)
+
+
+Unhandled exception:
+Class '_SingleControllerStream<FileSystemEntity>' has no instance setter 'onFile='.
+
+NoSuchMethodError : method not found: 'onFile='
+Receiver: Instance of '_SingleControllerStream@0x2900bd4a<FileSystemEntity>'
+Arguments: [Closure: (dynamic, dynamic) => dynamic]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:347:9)
+#1      Timer.Timer.<anonymous closure> (dart:async-patch:11:15)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:6031:28)
+#3      _Timer._createTimerHandler._handleTimeout (dart:io:6039:7)
+#4      _Timer._createTimerHandler.<anonymous closure> (dart:io:6047:23)
+#5      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [697 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 331 ms
+Total time                                                   -- 350 ms
+build.dart finished [888 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  14 ms
+build.dart finished [540 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart --changed=lib/src/model/communication/b...
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 327 ms
+Total time                                                   -- 345 ms
+build.dart finished [901 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  15 ms
+build.dart finished [545 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  14 ms
+Uncaught Error: Class '_SingleControllerStream<FileSystemEntity>' has no instance setter 'onFile='.
+
+NoSuchMethodError : method not found: 'onFile='
+Receiver: Instance of '_SingleControllerStream@0x2900bd4a<FileSystemEntity>'
+Arguments: [Closure: (dynamic, dynamic) => dynamic]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1828:25)
+#1      _handleCleanCommand.<anonymous closure> (package:web_ui/component_build.dart:108:34)
+#2      _ThenFuture._sendValue (dart:async:419:24)
+
+
+Unhandled exception:
+Class '_SingleControllerStream<FileSystemEntity>' has no instance setter 'onFile='.
+
+NoSuchMethodError : method not found: 'onFile='
+Receiver: Instance of '_SingleControllerStream@0x2900bd4a<FileSystemEntity>'
+Arguments: [Closure: (dynamic, dynamic) => dynamic]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:347:9)
+#1      Timer.Timer.<anonymous closure> (dart:async-patch:11:15)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:6031:28)
+#3      _Timer._createTimerHandler._handleTimeout (dart:io:6039:7)
+#4      _Timer._createTimerHandler.<anonymous closure> (dart:io:6047:23)
+#5      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [712 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 336 ms
+Total time                                                   -- 353 ms
+build.dart finished [909 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  14 ms
+build.dart finished [566 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  14 ms
+Uncaught Error: Class '_SingleControllerStream<FileSystemEntity>' has no instance setter 'onFile='.
+
+NoSuchMethodError : method not found: 'onFile='
+Receiver: Instance of '_SingleControllerStream@0x2900bd4a<FileSystemEntity>'
+Arguments: [Closure: (dynamic, dynamic) => dynamic]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1828:25)
+#1      _handleCleanCommand.<anonymous closure> (package:web_ui/component_build.dart:108:34)
+#2      _ThenFuture._sendValue (dart:async:419:24)
+
+
+Unhandled exception:
+Class '_SingleControllerStream<FileSystemEntity>' has no instance setter 'onFile='.
+
+NoSuchMethodError : method not found: 'onFile='
+Receiver: Instance of '_SingleControllerStream@0x2900bd4a<FileSystemEntity>'
+Arguments: [Closure: (dynamic, dynamic) => dynamic]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:347:9)
+#1      Timer.Timer.<anonymous closure> (dart:async-patch:11:15)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:6031:28)
+#3      _Timer._createTimerHandler._handleTimeout (dart:io:6039:7)
+#4      _Timer._createTimerHandler.<anonymous closure> (dart:io:6047:23)
+#5      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [682 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 349 ms
+Total time                                                   -- 365 ms
+build.dart finished [907 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  14 ms
+build.dart finished [576 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  14 ms
+Uncaught Error: Class '_SingleControllerStream<FileSystemEntity>' has no instance setter 'onFile='.
+
+NoSuchMethodError : method not found: 'onFile='
+Receiver: Instance of '_SingleControllerStream@0x2900bd4a<FileSystemEntity>'
+Arguments: [Closure: (dynamic, dynamic) => dynamic]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1828:25)
+#1      _handleCleanCommand.<anonymous closure> (package:web_ui/component_build.dart:108:34)
+#2      _ThenFuture._sendValue (dart:async:419:24)
+
+
+Unhandled exception:
+Class '_SingleControllerStream<FileSystemEntity>' has no instance setter 'onFile='.
+
+NoSuchMethodError : method not found: 'onFile='
+Receiver: Instance of '_SingleControllerStream@0x2900bd4a<FileSystemEntity>'
+Arguments: [Closure: (dynamic, dynamic) => dynamic]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:347:9)
+#1      Timer.Timer.<anonymous closure> (dart:async-patch:11:15)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:6031:28)
+#3      _Timer._createTimerHandler._handleTimeout (dart:io:6039:7)
+#4      _Timer._createTimerHandler.<anonymous closure> (dart:io:6047:23)
+#5      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [677 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 374 ms
+Total time                                                   -- 392 ms
+build.dart finished [925 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  15 ms
+build.dart finished [565 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  14 ms
+Uncaught Error: Class '_SingleControllerStream<FileSystemEntity>' has no instance setter 'onFile='.
+
+NoSuchMethodError : method not found: 'onFile='
+Receiver: Instance of '_SingleControllerStream@0x2900bd4a<FileSystemEntity>'
+Arguments: [Closure: (dynamic, dynamic) => dynamic]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1828:25)
+#1      _handleCleanCommand.<anonymous closure> (package:web_ui/component_build.dart:108:34)
+#2      _ThenFuture._sendValue (dart:async:419:24)
+
+
+Unhandled exception:
+Class '_SingleControllerStream<FileSystemEntity>' has no instance setter 'onFile='.
+
+NoSuchMethodError : method not found: 'onFile='
+Receiver: Instance of '_SingleControllerStream@0x2900bd4a<FileSystemEntity>'
+Arguments: [Closure: (dynamic, dynamic) => dynamic]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:347:9)
+#1      Timer.Timer.<anonymous closure> (dart:async-patch:11:15)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:6031:28)
+#3      _Timer._createTimerHandler._handleTimeout (dart:io:6039:7)
+#4      _Timer._createTimerHandler.<anonymous closure> (dart:io:6047:23)
+#5      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [676 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 348 ms
+Total time                                                   -- 365 ms
+build.dart finished [909 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  15 ms
+build.dart finished [565 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 404 ms
+Total time                                                   -- 420 ms
+build.dart finished [1160 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart --changed=web/out/main.dart.map --changed=web/out/main.html --...
+Total time                                                   --  16 ms
+build.dart finished [535 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  14 ms
+build.dart finished [524 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: Class '_LinkedHashTableValueIterable<Option>' has no instance method 'firstMatching'.
+
+NoSuchMethodError : method not found: 'firstMatching'
+Receiver: Instance of '_LinkedHashTableValueIterable@0x23c35ea0<Option>'
+Arguments: [Closure: (dynamic, dynamic) => dynamic, orElse: Closure: (dynamic) => dynamic]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1884:25)
+#1      ArgParser.findByAbbreviation (package:args/args.dart:334:40)
+#2      ArgParser._addOption (package:args/args.dart:293:40)
+#3      ArgParser.addFlag (package:args/args.dart:260:15)
+#4      CompilerOptions.parse (package:web_ui/src/options.dart:81:16)
+#5      run (package:web_ui/dwc.dart:73:38)
+#6      build.<anonymous closure>.<anonymous closure> (package:web_ui/component_build.dart:69:48)
+#7      _ThenFuture._sendValue (dart:async:463:24)
+#8      _FutureImpl._handleValue.<anonymous closure> (dart:async:337:28)
+#9      Timer.run.<anonymous closure> (dart:async:2362:21)
+#10     Timer.Timer.<anonymous closure> (dart:async-patch:15:15)
+
+
+Unhandled exception:
+Class '_LinkedHashTableValueIterable<Option>' has no instance method 'firstMatching'.
+
+NoSuchMethodError : method not found: 'firstMatching'
+Receiver: Instance of '_LinkedHashTableValueIterable@0x23c35ea0<Option>'
+Arguments: [Closure: (dynamic, dynamic) => dynamic, orElse: Closure: (dynamic) => dynamic]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:391:9)
+#1      Timer.run.<anonymous closure> (dart:async:2362:21)
+#2      Timer.run.<anonymous closure> (dart:async:2370:13)
+#3      Timer.Timer.<anonymous closure> (dart:async-patch:15:15)
+#4      _Timer._createTimerHandler._handleTimeout (dart:io:6385:28)
+#5      _Timer._createTimerHandler._handleTimeout (dart:io:6393:7)
+#6      _Timer._createTimerHandler.<anonymous closure> (dart:io:6401:23)
+#7      _ReceivePortImpl._handleMessage (dart:isolate-patch:81:92)
+build.dart finished [392 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: Class '_LinkedHashTableValueIterable<Option>' has no instance method 'firstMatching'.
+
+NoSuchMethodError : method not found: 'firstMatching'
+Receiver: Instance of '_LinkedHashTableValueIterable@0x23c35ea0<Option>'
+Arguments: [Closure: (dynamic, dynamic) => dynamic, orElse: Closure: (dynamic) => dynamic]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1884:25)
+#1      ArgParser.findByAbbreviation (package:args/args.dart:334:40)
+#2      ArgParser._addOption (package:args/args.dart:293:40)
+#3      ArgParser.addFlag (package:args/args.dart:260:15)
+#4      CompilerOptions.parse (package:web_ui/src/options.dart:81:16)
+#5      run (package:web_ui/dwc.dart:73:38)
+#6      build.<anonymous closure>.<anonymous closure> (package:web_ui/component_build.dart:69:48)
+#7      _ThenFuture._sendValue (dart:async:463:24)
+#8      _FutureImpl._handleValue.<anonymous closure> (dart:async:337:28)
+#9      Timer.run.<anonymous closure> (dart:async:2362:21)
+#10     Timer.Timer.<anonymous closure> (dart:async-patch:15:15)
+
+
+Unhandled exception:
+Class '_LinkedHashTableValueIterable<Option>' has no instance method 'firstMatching'.
+
+NoSuchMethodError : method not found: 'firstMatching'
+Receiver: Instance of '_LinkedHashTableValueIterable@0x23c35ea0<Option>'
+Arguments: [Closure: (dynamic, dynamic) => dynamic, orElse: Closure: (dynamic) => dynamic]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:391:9)
+#1      Timer.run.<anonymous closure> (dart:async:2362:21)
+#2      Timer.run.<anonymous closure> (dart:async:2370:13)
+#3      Timer.Timer.<anonymous closure> (dart:async-patch:15:15)
+#4      _Timer._createTimerHandler._handleTimeout (dart:io:6385:28)
+#5      _Timer._createTimerHandler._handleTimeout (dart:io:6393:7)
+#6      _Timer._createTimerHandler.<anonymous closure> (dart:io:6401:23)
+#7      _ReceivePortImpl._handleMessage (dart:isolate-patch:81:92)
+build.dart finished [568 ms]
+
+---
+build.dart --machine --changed=web/out/main.dart
+Total time                                                   --   8 ms
+build.dart finished [290 ms]
+
+---
+build.dart --machine --removed=web/out/main.dart --removed=web/out/main.dart.map --removed=web/out/main.html --...
+Total time                                                   --  14 ms
+build.dart finished [305 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  16 ms
+build.dart finished [419 ms]
+
+---
+build.dart --machine --changed=web/out/assets/css/application.css --changed=web/out/assets/css/bootstrap.css --...
+Total time                                                   --  14 ms
+build.dart finished [360 ms]
+
+---
+build.dart --machine --changed=web/out/assets/css/application.css --changed=web/out/assets/css/bootstrap.css --...
+Total time                                                   --  13 ms
+build.dart finished [342 ms]
+
+---
+build.dart --machine --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 266 ms
+Total time                                                   -- 283 ms
+build.dart finished [620 ms]
+
+---
+build.dart --machine --changed=web/out/assets/css/application.css --changed=web/out/main.dart --changed=web/out...
+Total time                                                   --  11 ms
+build.dart finished [353 ms]
+
+---
+build.dart --machine --changed=web/out/assets/css/application.css --changed=web/out/main.dart --changed=web/out...
+Total time                                                   --  11 ms
+build.dart finished [336 ms]
+
+---
+build.dart --machine --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":7028,"charStart":252001,"charEnd":252002}}]
+Total time spent on web/main.html                            -- 490 ms
+Total time                                                   -- 503 ms
+build.dart finished [834 ms]
+
+---
+build.dart --machine --changed=web/out/assets/css/application.css --changed=web/out/assets/css/bootstrap.css --...
+Total time                                                   --  13 ms
+build.dart finished [340 ms]
+
+---
+build.dart --machine --changed=web/out/assets/css/application.css --changed=web/out/assets/css/bootstrap.css --...
+Total time                                                   --  11 ms
+build.dart finished [329 ms]
+
+---
+build.dart --machine --full
+'package:analyzer_experimental/src/generated/java_core.dart': Error: line 260 pos 30: cannot resolve class name 'Collection' from 'ListWrapper'
+class ListWrapper<E> extends Collection<E> implements List<E> {
+                             ^
+build.dart finished [445 ms]
+
+---
+build.dart --machine --clean
+'package:analyzer_experimental/src/generated/java_core.dart': Error: line 260 pos 30: cannot resolve class name 'Collection' from 'ListWrapper'
+class ListWrapper<E> extends Collection<E> implements List<E> {
+                             ^
+build.dart finished [276 ms]
+
+---
+build.dart --machine --full
+'package:analyzer_experimental/src/generated/java_core.dart': Error: line 260 pos 30: cannot resolve class name 'Collection' from 'ListWrapper'
+class ListWrapper<E> extends Collection<E> implements List<E> {
+                             ^
+build.dart finished [273 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  11 ms
+build.dart finished [300 ms]
+
+---
+build.dart --machine --removed=web/out/assets/css/application.css --removed=web/out/assets/css/bootstrap.css --...
+Total time                                                   --  11 ms
+build.dart finished [327 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":7028,"charStart":252001,"charEnd":252002}}]
+Total time spent on web/main.html                            -- 583 ms
+Total time                                                   -- 597 ms
+build.dart finished [958 ms]
+
+---
+build.dart --machine --changed=web/out/assets/css/application.css --changed=web/out/assets/css/bootstrap.css --...
+Total time                                                   --  12 ms
+build.dart finished [353 ms]
+
+---
+build.dart --machine --changed=lib/communication.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":7028,"charStart":252001,"charEnd":252002}}]
+Total time spent on web/main.html                            -- 485 ms
+Total time                                                   -- 499 ms
+build.dart finished [812 ms]
+
+---
+build.dart --machine --changed=web/out/assets/css/application.css --changed=web/out/assets/css/bootstrap.css --...
+Total time                                                   --  11 ms
+build.dart finished [310 ms]
+
+---
+build.dart --machine --changed=lib/communication.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":7028,"charStart":252001,"charEnd":252002}}]
+Total time spent on web/main.html                            -- 536 ms
+Total time                                                   -- 549 ms
+build.dart finished [846 ms]
+
+---
+build.dart --machine --changed=web/out/assets/css/application.css --changed=web/out/assets/css/bootstrap.css --...
+Total time                                                   --  11 ms
+build.dart finished [315 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":7028,"charStart":252001,"charEnd":252002}}]
+Total time spent on web/main.html                            -- 537 ms
+Total time                                                   -- 551 ms
+build.dart finished [860 ms]
+
+---
+build.dart --machine --changed=web/out/assets/css/application.css --changed=web/out/assets/css/bootstrap.css --...
+Total time                                                   --  11 ms
+build.dart finished [314 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":7028,"charStart":252001,"charEnd":252002}}]
+Total time spent on web/main.html                            -- 490 ms
+Total time                                                   -- 504 ms
+build.dart finished [803 ms]
+
+---
+build.dart --machine --changed=web/out/assets/css/application.css --changed=web/out/assets/css/bootstrap.css --...
+Total time                                                   --  11 ms
+build.dart finished [312 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":7028,"charStart":252001,"charEnd":252002}}]
+Total time spent on web/main.html                            -- 487 ms
+Total time                                                   -- 501 ms
+build.dart finished [805 ms]
+
+---
+build.dart --machine --changed=web/out/assets/css/application.css --changed=web/out/assets/css/bootstrap.css --...
+Total time                                                   --  11 ms
+build.dart finished [312 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":7028,"charStart":252001,"charEnd":252002}}]
+Total time spent on web/main.html                            -- 535 ms
+Total time                                                   -- 549 ms
+build.dart finished [853 ms]
+
+---
+build.dart --machine --changed=web/out/assets/css/application.css --changed=web/out/assets/css/bootstrap.css --...
+Total time                                                   --  11 ms
+build.dart finished [310 ms]
+
+---
+build.dart --machine --changed=lib/communication.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":7028,"charStart":252001,"charEnd":252002}}]
+Total time spent on web/main.html                            -- 540 ms
+Total time                                                   -- 554 ms
+build.dart finished [859 ms]
+
+---
+build.dart --machine --changed=web/out/assets/css/application.css --changed=web/out/assets/css/bootstrap.css --...
+Total time                                                   --  11 ms
+build.dart finished [311 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":7028,"charStart":252001,"charEnd":252002}}]
+Total time spent on web/main.html                            -- 538 ms
+Total time                                                   -- 552 ms
+build.dart finished [863 ms]
+
+---
+build.dart --machine --changed=web/out/assets/css/application.css --changed=web/out/assets/css/bootstrap.css --...
+Total time                                                   --  11 ms
+build.dart finished [309 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/base64.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":7028,"charStart":252001,"charEnd":252002}}]
+Total time spent on web/main.html                            -- 481 ms
+Total time                                                   -- 495 ms
+build.dart finished [804 ms]
+
+---
+build.dart --machine --changed=web/out/assets/css/application.css --changed=web/out/assets/css/bootstrap.css --...
+Total time                                                   --  11 ms
+build.dart finished [320 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/GUIDGen.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":7028,"charStart":252001,"charEnd":252002}}]
+Total time spent on web/main.html                            -- 490 ms
+Total time                                                   -- 504 ms
+build.dart finished [810 ms]
+
+---
+build.dart --machine --changed=web/out/assets/css/application.css --changed=web/out/assets/css/bootstrap.css --...
+Total time                                                   --  11 ms
+build.dart finished [316 ms]
+
+---
+build.dart --machine --changed=test/src/simple.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":7028,"charStart":252001,"charEnd":252002}}]
+Total time spent on web/main.html                            -- 540 ms
+Total time                                                   -- 554 ms
+build.dart finished [862 ms]
+
+---
+build.dart --machine --changed=web/out/assets/css/application.css --changed=web/out/assets/css/bootstrap.css --...
+Total time                                                   --  11 ms
+build.dart finished [311 ms]
+
+---
+build.dart --machine --clean
+Unhandled exception:
+No constructor 'Directory.current' declared in class 'Directory'.
+
+NoSuchMethodError : method not found: 'Directory.current'
+Receiver: Type: class 'Directory'
+Arguments: [...]
+#0      current (package:pathos/path.dart:27:47)
+#1      Builder.Builder (package:pathos/path.dart:235:30)
+#2      path (package:web_ui/src/utils.dart:17:16)
+#3      _outDir (package:web_ui/component_build.dart:89:36)
+#4      build.<anonymous closure> (package:web_ui/component_build.dart:55:42)
+#5      asyncTime (package:web_ui/src/utils.dart:65:18)
+#6      build (package:web_ui/component_build.dart:38:19)
+#7      main (file:///Users/mikemitterer/dart/AndroidIconGenerator/build.dart:12:8)
+build.dart finished [295 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+No constructor 'Directory.current' declared in class 'Directory'.
+
+NoSuchMethodError : method not found: 'Directory.current'
+Receiver: Type: class 'Directory'
+Arguments: [...]
+#0      current (package:pathos/path.dart:27:47)
+#1      Builder.Builder (package:pathos/path.dart:235:30)
+#2      path (package:web_ui/src/utils.dart:17:16)
+#3      _outDir (package:web_ui/component_build.dart:89:36)
+#4      build.<anonymous closure> (package:web_ui/component_build.dart:55:42)
+#5      asyncTime (package:web_ui/src/utils.dart:65:18)
+#6      build (package:web_ui/component_build.dart:38:19)
+#7      main (file:///Users/mikemitterer/dart/AndroidIconGenerator/build.dart:12:8)
+build.dart finished [304 ms]
+
+---
+build.dart --machine --clean
+Unable to open file: /Users/mikemitterer/dart/AndroidIconGenerator/packages/web_ui/component_build.dart'file:///Users/mikemitterer/dart/AndroidIconGenerator/build.dart': Error: line 8 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [75 ms]
+
+---
+build.dart --machine --full
+Unable to open file: /Users/mikemitterer/dart/AndroidIconGenerator/packages/web_ui/component_build.dart'file:///Users/mikemitterer/dart/AndroidIconGenerator/build.dart': Error: line 8 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [44 ms]
+
+---
+build.dart --machine --clean
+Unable to open file: /Users/mikemitterer/dart/AndroidIconGenerator/packages/web_ui/component_build.dart'file:///Users/mikemitterer/dart/AndroidIconGenerator/build.dart': Error: line 8 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [48 ms]
+
+---
+build.dart --machine --full
+Unable to open file: /Users/mikemitterer/dart/AndroidIconGenerator/packages/web_ui/component_build.dart'file:///Users/mikemitterer/dart/AndroidIconGenerator/build.dart': Error: line 8 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [61 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  27 ms
+build.dart finished [323 ms]
+
+---
+build.dart --machine --changed=lib/communication.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 726 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 749 ms
+build.dart finished [953 ms]
+
+---
+build.dart --machine --changed=lib/model.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 707 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 730 ms
+build.dart finished [933 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/uriprovider/UriProviderForTesting.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 707 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 730 ms
+build.dart finished [944 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/uriprovider/UriProviderForTesting.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 702 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 725 ms
+build.dart finished [924 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 704 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 727 ms
+build.dart finished [931 ms]
+
+---
+build.dart --machine --changed=lib/src/model/communication/uriprovider/UriProviderForTesting.dart --changed=tes...
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 781 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 804 ms
+build.dart finished [1012 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 714 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 737 ms
+build.dart finished [942 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/NameTO.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 783 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 806 ms
+build.dart finished [1014 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/NameTO.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 778 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 802 ms
+build.dart finished [1007 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/NameTO.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 783 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 807 ms
+build.dart finished [1009 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/NameTO.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 705 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 729 ms
+build.dart finished [930 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 782 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 805 ms
+build.dart finished [1015 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 790 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 814 ms
+build.dart finished [1018 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 779 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 801 ms
+build.dart finished [1006 ms]
+
+---
+build.dart --machine --changed=test/test.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 781 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 804 ms
+build.dart finished [1010 ms]
+
+---
+build.dart --machine --changed=test/test.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 725 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 748 ms
+build.dart finished [957 ms]
+
+---
+build.dart --machine --changed=test/test.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 705 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 728 ms
+build.dart finished [931 ms]
+
+---
+build.dart --machine --changed=test/test.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 709 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 732 ms
+build.dart finished [939 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 782 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 805 ms
+build.dart finished [1009 ms]
+
+---
+build.dart --machine --changed=test/test.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 782 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 805 ms
+build.dart finished [1008 ms]
+
+---
+build.dart --machine --changed=test/test.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 780 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 803 ms
+build.dart finished [1006 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Total time                                                   --  15 ms
+build.dart finished [221 ms]
+
+---
+build.dart --machine --changed=test/test.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 781 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 804 ms
+build.dart finished [1010 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 710 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 734 ms
+build.dart finished [956 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 782 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 806 ms
+build.dart finished [1011 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 778 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 801 ms
+build.dart finished [1011 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 717 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 739 ms
+build.dart finished [952 ms]
+
+---
+build.dart --machine --changed=test/test.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 711 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 734 ms
+build.dart finished [940 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 715 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 738 ms
+build.dart finished [949 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/SimpleUploadResponseTO.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 787 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 811 ms
+build.dart finished [1019 ms]
+
+---
+build.dart --machine --changed=lib/tos.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 784 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 807 ms
+build.dart finished [1016 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/SimpleUploadResponseTO.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 779 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 802 ms
+build.dart finished [1006 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 783 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 806 ms
+build.dart finished [1017 ms]
+
+---
+build.dart --machine --changed=lib/src/model/to/SimpleUploadResponseTO.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 714 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 737 ms
+build.dart finished [945 ms]
+
+---
+build.dart --machine --changed=lib/communication.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 705 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 729 ms
+build.dart finished [942 ms]
+
+---
+build.dart --machine --changed=test/src/restserver.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 783 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 806 ms
+build.dart finished [1013 ms]
+

@@ -3,7 +3,7 @@ part of communication;
 
 class _UriProviderForTesting extends UriProvider {
 
-  Uri forHelloDB() => new Uri("http://localhost:8080/api/hellodb");
-  Uri forUpload() => new Uri("http://localhost:8080/api/file/upload");
+  Uri forHelloDB() => Uri.parse("http://localhost:8080/hellodb/names");
+  Uri forUpload() => Uri.parse("http://localhost:8080/api/v1/file/upload");
 }
 
