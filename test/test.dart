@@ -16,7 +16,7 @@ import 'dart:typed_data';
 //import 'dart:io' as io;
 
 part 'src/simple.dart';
-part 'src/restserver.dart';
+//part 'src/restserver.dart';
 part 'src/guid.dart';
 
 //
@@ -29,6 +29,6 @@ main() {
   final UriProvider uriprovider = new UriProvider.forTesting();
 
   testSimple();
-  testREST(uriprovider);
+  //testREST(uriprovider);
   testGUID();
 }

@@ -7400,3 +7400,695 @@ Total time spent on web/main.html                            -- 783 ms
 Total time                                                   -- 806 ms
 build.dart finished [1013 ms]
 
+---
+build.dart --machine --changed=test/src/simple.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 736 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 759 ms
+build.dart finished [963 ms]
+
+---
+build.dart --machine --changed=test/test.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 787 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 810 ms
+build.dart finished [1004 ms]
+
+---
+build.dart --machine --changed=test/test.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 790 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 813 ms
+build.dart finished [1011 ms]
+
+---
+build.dart --machine --changed=test/src/simple.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 726 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 749 ms
+build.dart finished [952 ms]
+
+---
+build.dart --machine --changed=test/src/simple.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+Total time spent on web/main.html                            -- 780 ms
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time                                                   -- 803 ms
+build.dart finished [1009 ms]
+
+---
+build.dart --machine --removed=lib/src/model/utils/htmlescape.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 618 ms
+Total time                                                   -- 641 ms
+build.dart finished [849 ms]
+
+---
+build.dart --machine --removed=lib/src/model/communication/GUIDGen.dart --removed=lib/src/model/communication/H...
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 625 ms
+Total time                                                   -- 648 ms
+build.dart finished [865 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [210 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 622 ms
+Total time                                                   -- 644 ms
+build.dart finished [845 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [217 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 622 ms
+Total time                                                   -- 644 ms
+build.dart finished [850 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  12 ms
+build.dart finished [214 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 615 ms
+Total time                                                   -- 637 ms
+build.dart finished [839 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [225 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 646 ms
+Total time                                                   -- 669 ms
+build.dart finished [887 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [252 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 633 ms
+Total time                                                   -- 656 ms
+build.dart finished [859 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [215 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 699 ms
+Total time                                                   -- 730 ms
+build.dart finished [973 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [250 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 654 ms
+Total time                                                   -- 677 ms
+build.dart finished [883 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [211 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 636 ms
+Total time                                                   -- 659 ms
+build.dart finished [870 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [241 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 648 ms
+Total time                                                   -- 671 ms
+build.dart finished [885 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [244 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 644 ms
+Total time                                                   -- 667 ms
+build.dart finished [873 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [223 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 648 ms
+Total time                                                   -- 671 ms
+build.dart finished [873 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [211 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 655 ms
+Total time                                                   -- 677 ms
+build.dart finished [882 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [206 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 657 ms
+Total time                                                   -- 679 ms
+build.dart finished [881 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  14 ms
+build.dart finished [228 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 655 ms
+Total time                                                   -- 677 ms
+build.dart finished [883 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 784 ms
+Total time                                                   -- 811 ms
+build.dart finished [1067 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [256 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 637 ms
+Total time                                                   -- 660 ms
+build.dart finished [883 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [255 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 660 ms
+Total time                                                   -- 683 ms
+build.dart finished [902 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [251 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 653 ms
+Total time                                                   -- 676 ms
+build.dart finished [897 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [218 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 644 ms
+Total time                                                   -- 667 ms
+build.dart finished [873 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [217 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 644 ms
+Total time                                                   -- 666 ms
+build.dart finished [875 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [219 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 642 ms
+Total time                                                   -- 665 ms
+build.dart finished [868 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [238 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 655 ms
+Total time                                                   -- 678 ms
+build.dart finished [887 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  16 ms
+build.dart finished [294 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 842 ms
+Total time                                                   -- 874 ms
+build.dart finished [1162 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  19 ms
+build.dart finished [297 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 877 ms
+Total time                                                   -- 906 ms
+build.dart finished [1176 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  22 ms
+build.dart finished [303 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 899 ms
+Total time                                                   -- 930 ms
+build.dart finished [1205 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  16 ms
+build.dart finished [295 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 857 ms
+Total time                                                   -- 888 ms
+build.dart finished [1149 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  21 ms
+build.dart finished [301 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 923 ms
+Total time                                                   -- 956 ms
+build.dart finished [1230 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  19 ms
+build.dart finished [307 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 916 ms
+Total time                                                   -- 948 ms
+build.dart finished [1214 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  20 ms
+build.dart finished [294 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 903 ms
+Total time                                                   -- 934 ms
+build.dart finished [1212 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  21 ms
+build.dart finished [306 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 885 ms
+Total time                                                   -- 917 ms
+build.dart finished [1193 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  19 ms
+build.dart finished [310 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 914 ms
+Total time                                                   -- 945 ms
+build.dart finished [1239 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  20 ms
+build.dart finished [316 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 948 ms
+Total time                                                   -- 982 ms
+build.dart finished [1261 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 1192 ms
+Total time                                                   -- 1224 ms
+build.dart finished [1605 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [221 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 640 ms
+Total time                                                   -- 662 ms
+build.dart finished [871 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [212 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 647 ms
+Total time                                                   -- 669 ms
+build.dart finished [882 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [211 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 648 ms
+Total time                                                   -- 670 ms
+build.dart finished [880 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [224 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 642 ms
+Total time                                                   -- 664 ms
+build.dart finished [879 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [223 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 652 ms
+Total time                                                   -- 675 ms
+build.dart finished [883 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [227 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 646 ms
+Total time                                                   -- 669 ms
+build.dart finished [867 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [241 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 639 ms
+Total time                                                   -- 661 ms
+build.dart finished [872 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [206 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 636 ms
+Total time                                                   -- 657 ms
+build.dart finished [873 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [214 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 636 ms
+Total time                                                   -- 658 ms
+build.dart finished [865 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [235 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 671 ms
+Total time                                                   -- 693 ms
+build.dart finished [906 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  13 ms
+build.dart finished [213 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 668 ms
+Total time                                                   -- 690 ms
+build.dart finished [910 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 1114 ms
+Total time                                                   -- 1163 ms
+build.dart finished [1516 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  19 ms
+build.dart finished [233 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":7028,"charStart":252001,"charEnd":252002}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":7029,"charStart":252024,"charEnd":252025}}]
+[{"method":"error","params":{"file":"web/packages/androidicongenerator/model.dart","message":"unable to open file \"web/packages/androidicongenerator/src/model/utils/htmlescape.dart\"","line":12,"charStart":296,"charEnd":335}}]
+Total time spent on web/main.html                            -- 731 ms
+Total time                                                   -- 758 ms
+build.dart finished [992 ms]
+
